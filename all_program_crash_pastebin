@@ -1,0 +1,899 @@
+
+Last time a terminal programs logging time stamps ran:
+2017-10-25T12:30:53,677678132+02:00
+
+
+journal.log
+-- Logs begin at Wed 2017-10-25 11:12:03 CEST, end at Wed 2017-10-25 12:32:07 CEST. --
+...
+okt 25 12:27:41 kenni systemd-timesyncd[524]: Timed out waiting for reply from 91.189.94.4:123 (ntp.ubuntu.com).
+okt 25 12:27:51 kenni systemd-timesyncd[524]: Timed out waiting for reply from 91.189.89.198:123 (ntp.ubuntu.com).
+okt 25 12:28:01 kenni systemd-timesyncd[524]: Timed out waiting for reply from 91.189.91.157:123 (ntp.ubuntu.com).
+okt 25 12:28:11 kenni systemd-timesyncd[524]: Timed out waiting for reply from 91.189.89.199:123 (ntp.ubuntu.com).
+okt 25 12:28:22 kenni systemd-timesyncd[524]: Timed out waiting for reply from [2001:67c:1560:8003::c8]:123 (ntp.ubuntu.com).
+okt 25 12:28:32 kenni systemd-timesyncd[524]: Timed out waiting for reply from [2001:67c:1560:8003::c7]:123 (ntp.ubuntu.com).
+okt 25 12:30:54 kenni gnome-shell[1479]: meta_monitor_manager_get_logical_monitor_from_number: assertion '(unsigned int) number < g_list_length (manager->logical_monitors)' failed
+okt 25 12:30:54 kenni gnome-shell[1479]: meta_workspace_get_work_area_for_monitor: assertion 'logical_monitor != NULL' failed
+okt 25 12:30:54 kenni kernel: show_signal_msg: 13 callbacks suppressed
+okt 25 12:30:54 kenni kernel: gnome-shell[1479]: segfault at 1 ip 0000000000000001 sp 00007ffe74912d28 error 14
+okt 25 12:30:54 kenni gnome-terminal-[2328]: Error reading events from display: Kanalen blev brudt
+okt 25 12:30:54 kenni nextcloud[1768]: Error reading events from display: Kanalen blev brudt
+okt 25 12:30:54 kenni update-notifier[2061]: Error reading events from display: Kanalen blev brudt
+okt 25 12:30:54 kenni systemd[1375]: gnome-terminal-server.service: Main process exited, code=exited, status=1/FAILURE
+okt 25 12:30:54 kenni org.gnome.Shell.desktop[1479]: (EE)
+okt 25 12:30:54 kenni org.gnome.Shell.desktop[1479]: Fatal server error:
+okt 25 12:30:54 kenni org.gnome.Shell.desktop[1479]: (EE) failed to read Wayland events: Broken pipe
+okt 25 12:30:54 kenni org.gnome.Shell.desktop[1479]: (EE)
+okt 25 12:30:54 kenni systemd[1375]: gnome-terminal-server.service: Unit entered failed state.
+okt 25 12:30:54 kenni systemd[1375]: gnome-terminal-server.service: Failed with result 'exit-code'.
+okt 25 12:30:54 kenni polkitd(authority=local)[718]: Unregistered Authentication Agent for unix-session:2 (system bus name :1.74, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale da_DK.UTF-8) (disconnected from bus)
+okt 25 12:30:54 kenni gnome-session[1395]: gnome-session-binary[1395]: WARNING: Application 'org.gnome.Shell.desktop' killed by signal 11
+okt 25 12:30:54 kenni gnome-session-binary[1395]: WARNING: Application 'org.gnome.Shell.desktop' killed by signal 11
+okt 25 12:30:54 kenni gnome-session-binary[1395]: Unrecoverable failure in required component org.gnome.Shell.desktop
+okt 25 12:30:54 kenni org.gnome.Shell.desktop[1479]: xcb_connection_has_error() returned true
+okt 25 12:30:54 kenni gsd-rfkill[1599]: g_object_notify: object class 'CcRfkillGlib' has no property named 'kernel-noinput'
+okt 25 12:30:54 kenni thunderbird.desktop[3062]: xcb_connection_has_error() returned true
+okt 25 12:30:54 kenni org.a11y.atspi.Registry[1497]: XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":0"
+okt 25 12:30:54 kenni org.a11y.atspi.Registry[1497]:       after 6119 requests (6119 known processed) with 0 events remaining.
+okt 25 12:30:54 kenni pulseaudio[11845]: [pulseaudio] client-conf-x11.c: xcb_connection_has_error() returned true
+okt 25 12:30:54 kenni rtkit-daemon[842]: Successfully made thread 11851 of process 11851 (n/a) owned by '1000' high priority at nice level -11.
+okt 25 12:30:54 kenni rtkit-daemon[842]: Supervising 1 threads of 1 processes of 1 users.
+okt 25 12:30:54 kenni pulseaudio[11851]: [pulseaudio] pid.c: Stale PID file, overwriting.
+okt 25 12:30:54 kenni gsd-color[884]: failed to connect to device: Failed to connect to missing device /org/freedesktop/ColorManager/devices/xrandr_Hewlett_Packard_HP_Z27s_CNK64203NP_kenni_1000
+okt 25 12:30:54 kenni gdm-password][1002]: pam_unix(gdm-password:session): session closed for user kenni
+okt 25 12:30:54 kenni kernel: rfkill: input handler enabled
+okt 25 12:30:54 kenni kernel: [drm] Reducing the compressed framebuffer size. This may lead to less power savings than a non-reduced-size. Try to increase stolen memory size if available in BIOS.
+okt 25 12:30:54 kenni pulseaudio[11851]: [pulseaudio] module-alsa-card.c: Failed to open mixer for jack detection
+okt 25 12:30:54 kenni dbus[648]: [system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service'
+okt 25 12:30:54 kenni gnome-shell[800]: JS ERROR: TypeError: this.primaryMonitor is undefined
+                                        LayoutManager<._updateBoxes@resource:///org/gnome/shell/ui/layout.js:469:9
+                                        wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22
+                                        LayoutManager<._monitorsChanged@resource:///org/gnome/shell/ui/layout.js:503:9
+                                        wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22
+okt 25 12:30:54 kenni dbus[648]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.3" (uid=0 pid=671 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.22" (uid=121 pid=800 comm="/usr/bin/gnome-shell ")
+okt 25 12:30:54 kenni systemd-logind[671]: Removed session 2.
+okt 25 12:30:54 kenni systemd[1]: Stopping User Manager for UID 1000...
+okt 25 12:30:54 kenni systemd[1375]: Stopping Evolution address book service...
+okt 25 12:30:54 kenni systemd[1375]: Stopped target Default.
+okt 25 12:30:54 kenni systemd[1375]: Stopping Accessibility services bus...
+okt 25 12:30:54 kenni systemd[1375]: Stopping Evolution source registry...
+okt 25 12:30:54 kenni systemd[1375]: Stopping Virtual filesystem service - digital camera monitor...
+okt 25 12:30:54 kenni systemd[1375]: Stopping Evolution calendar service...
+okt 25 12:30:54 kenni systemd[1375]: Stopping Virtual filesystem service...
+okt 25 12:30:54 kenni systemd[1375]: Stopping Virtual filesystem service - GNOME Online Accounts monitor...
+okt 25 12:30:54 kenni systemd[1375]: Stopping Virtual filesystem service - disk device monitor...
+okt 25 12:30:54 kenni systemd[1375]: Stopping D-Bus User Message Bus...
+okt 25 12:30:54 kenni systemd[1375]: Stopping Virtual filesystem service - Apple File Conduit monitor...
+okt 25 12:30:54 kenni systemd[1375]: Stopping Virtual filesystem service - Media Transfer Protocol monitor...
+okt 25 12:30:54 kenni systemd[1375]: Stopping Virtual filesystem metadata service...
+okt 25 12:30:54 kenni systemd[1375]: Stopped Virtual filesystem service - Media Transfer Protocol monitor.
+okt 25 12:30:54 kenni systemd[1375]: Stopped Virtual filesystem service - GNOME Online Accounts monitor.
+okt 25 12:30:54 kenni systemd[1375]: Stopped Virtual filesystem metadata service.
+okt 25 12:30:54 kenni dbus[648]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.3" (uid=0 pid=671 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.22" (uid=121 pid=800 comm="/usr/bin/gnome-shell ")
+okt 25 12:30:54 kenni systemd[1375]: Stopped Virtual filesystem service - digital camera monitor.
+okt 25 12:30:54 kenni systemd[1375]: Stopped Virtual filesystem service - Apple File Conduit monitor.
+okt 25 12:30:54 kenni systemd[1375]: Stopped Virtual filesystem service - disk device monitor.
+okt 25 12:30:54 kenni systemd[1375]: Stopped Accessibility services bus.
+okt 25 12:30:54 kenni systemd[1375]: Stopped Evolution address book service.
+okt 25 12:30:54 kenni systemd[1375]: Stopped D-Bus User Message Bus.
+okt 25 12:30:54 kenni systemd[1375]: Stopped Evolution calendar service.
+okt 25 12:30:54 kenni systemd[1375]: Stopped Evolution source registry.
+okt 25 12:30:54 kenni dbus[648]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.3" (uid=0 pid=671 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.22" (uid=121 pid=800 comm="/usr/bin/gnome-shell ")
+okt 25 12:30:54 kenni dbus[648]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.3" (uid=0 pid=671 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.22" (uid=121 pid=800 comm="/usr/bin/gnome-shell ")
+okt 25 12:30:54 kenni dbus[648]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.3" (uid=0 pid=671 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.22" (uid=121 pid=800 comm="/usr/bin/gnome-shell ")
+okt 25 12:30:54 kenni dbus[648]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.3" (uid=0 pid=671 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.22" (uid=121 pid=800 comm="/usr/bin/gnome-shell ")
+okt 25 12:30:54 kenni dbus[648]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.3" (uid=0 pid=671 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.22" (uid=121 pid=800 comm="/usr/bin/gnome-shell ")
+okt 25 12:30:54 kenni dbus[648]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.3" (uid=0 pid=671 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.22" (uid=121 pid=800 comm="/usr/bin/gnome-shell ")
+okt 25 12:30:54 kenni systemd[1375]: Stopped Virtual filesystem service.
+okt 25 12:30:54 kenni systemd[1375]: Stopped target Basic System.
+okt 25 12:30:54 kenni systemd[1375]: Stopped target Paths.
+okt 25 12:30:54 kenni systemd[1375]: Stopped target Timers.
+okt 25 12:30:54 kenni systemd[1375]: Stopped target Sockets.
+okt 25 12:30:54 kenni systemd[1375]: Closed D-Bus User Message Bus Socket.
+okt 25 12:30:54 kenni systemd[1375]: Reached target Shutdown.
+okt 25 12:30:54 kenni systemd[1375]: Starting Exit the Session...
+okt 25 12:30:54 kenni dbus[648]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.3" (uid=0 pid=671 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.22" (uid=121 pid=800 comm="/usr/bin/gnome-shell ")
+okt 25 12:30:54 kenni systemd[1375]: Received SIGRTMIN+24 from PID 11860 (kill).
+okt 25 12:30:54 kenni dbus[648]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.3" (uid=0 pid=671 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.22" (uid=121 pid=800 comm="/usr/bin/gnome-shell ")
+okt 25 12:30:54 kenni dbus[648]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.3" (uid=0 pid=671 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.22" (uid=121 pid=800 comm="/usr/bin/gnome-shell ")
+okt 25 12:30:54 kenni dbus[648]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.3" (uid=0 pid=671 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.22" (uid=121 pid=800 comm="/usr/bin/gnome-shell ")
+okt 25 12:30:54 kenni dbus[648]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.3" (uid=0 pid=671 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.22" (uid=121 pid=800 comm="/usr/bin/gnome-shell ")
+okt 25 12:30:54 kenni dbus[648]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.3" (uid=0 pid=671 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.22" (uid=121 pid=800 comm="/usr/bin/gnome-shell ")
+okt 25 12:30:54 kenni dbus[648]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.3" (uid=0 pid=671 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.22" (uid=121 pid=800 comm="/usr/bin/gnome-shell ")
+okt 25 12:30:54 kenni dbus[648]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.3" (uid=0 pid=671 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.22" (uid=121 pid=800 comm="/usr/bin/gnome-shell ")
+okt 25 12:30:54 kenni dbus[648]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.3" (uid=0 pid=671 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.22" (uid=121 pid=800 comm="/usr/bin/gnome-shell ")
+okt 25 12:30:54 kenni dbus[648]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.3" (uid=0 pid=671 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.22" (uid=121 pid=800 comm="/usr/bin/gnome-shell ")
+okt 25 12:30:54 kenni systemd[1]: Stopped User Manager for UID 1000.
+okt 25 12:30:54 kenni systemd[1]: Removed slice User Slice of kenni.
+okt 25 12:30:54 kenni gnome-shell[800]: JS ERROR: TypeError: rect is undefined
+                                        MonitorConstraint<.vfunc_update_allocation@resource:///org/gnome/shell/ui/layout.js:146:9
+                                        wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22
+                                        LayoutManager<._init/<@resource:///org/gnome/shell/ui/layout.js:204:33
+                                        UserList<.scrollToItem@resource:///org/gnome/shell/gdm/loginDialog.js:203:19
+                                        wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22
+                                        UserList<.addUser/<@resource:///org/gnome/shell/gdm/loginDialog.js:267:42
+                                        UserList<._moveFocusToItems@resource:///org/gnome/shell/gdm/loginDialog.js:175:24
+                                        wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22
+                                        LoginDialog<._showUserList@resource:///org/gnome/shell/gdm/loginDialog.js:1131:9
+                                        wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22
+                                        LoginDialog<._onReset@resource:///org/gnome/shell/gdm/loginDialog.js:843:17
+                                        wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22
+                                        _emit@resource:///org/gnome/gjs/modules/signals.js:126:27
+                                        AuthPrompt<.reset@resource:///org/gnome/shell/gdm/authPrompt.js:480:9
+                                        wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22
+                                        LoginDialog<._loginScreenSessionActivated/<.onComplete@resource:///org/gnome/shell/gdm/loginDialog.js:937:36
+                                        _addHandler/params[name]@resource:///org/gnome/shell/ui/tweener.js:91:13
+                                        _callOnFunction@resource:///org/gnome/gjs/modules/tweener/tweener.js:203:13
+                                        _updateTweenByIndex@resource:///org/gnome/gjs/modules/tweener/tweener.js:332:9
+                                        _updateTweens@resource:///org/gnome/gjs/modules/tweener/tweener.js:345:18
+                                        _onEnterFrame@resource:///org/gnome/gjs/modules/tweener/tweener.js:360:10
+                                        _emit@resource:///org/gnome/gjs/modules/signals.js:126:27
+                                        ClutterFrameTicker<._onNewFrame@resource:///org/gnome/shell/ui/tweener.js:208:9
+                                        wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22
+                                        ClutterFrameTicker<._init/<@resource:///org/gnome/shell/ui/tweener.js:183:17
+okt 25 12:30:54 kenni gnome-shell[800]: clutter-actor.c:10050: Actor 'StScrollBar' tried to allocate a size of -13,00 x 14,00
+okt 25 12:30:54 kenni gnome-shell[800]: clutter-actor.c:10050: Actor 'StBoxLayout' tried to allocate a size of -13,00 x 1,00
+okt 25 12:30:54 kenni gnome-shell[800]: JS ERROR: TypeError: Main.layoutManager.primaryMonitor is undefined
+                                        Panel<._getPreferredWidth@resource:///org/gnome/shell/ui/panel.js:843:9
+                                        wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22
+                                        LayoutManager<._init/<@resource:///org/gnome/shell/ui/layout.js:204:33
+                                        UserList<.scrollToItem@resource:///org/gnome/shell/gdm/loginDialog.js:203:19
+                                        wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22
+                                        UserList<.addUser/<@resource:///org/gnome/shell/gdm/loginDialog.js:267:42
+                                        UserList<._moveFocusToItems@resource:///org/gnome/shell/gdm/loginDialog.js:175:24
+                                        wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22
+                                        LoginDialog<._showUserList@resource:///org/gnome/shell/gdm/loginDialog.js:1131:9
+                                        wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22
+                                        LoginDialog<._onReset@resource:///org/gnome/shell/gdm/loginDialog.js:843:17
+                                        wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22
+                                        _emit@resource:///org/gnome/gjs/modules/signals.js:126:27
+                                        AuthPrompt<.reset@resource:///org/gnome/shell/gdm/authPrompt.js:480:9
+                                        wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22
+                                        LoginDialog<._loginScreenSessionActivated/<.onComplete@resource:///org/gnome/shell/gdm/loginDialog.js:937:36
+                                        _addHandler/params[name]@resource:///org/gnome/shell/ui/tweener.js:91:13
+                                        _callOnFunction@resource:///org/gnome/gjs/modules/tweener/tweener.js:203:13
+                                        _updateTweenByIndex@resource:///org/gnome/gjs/modules/tweener/tweener.js:332:9
+                                        _updateTweens@resource:///org/gnome/gjs/modules/tweener/tweener.js:345:18
+                                        _onEnterFrame@resource:///org/gnome/gjs/modules/tweener/tweener.js:360:10
+                                        _emit@resource:///org/gnome/gjs/modules/signals.js:126:27
+                                        ClutterFrameTicker<._onNewFrame@resource:///org/gnome/shell/ui/tweener.js:208:9
+                                        wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22
+                                        ClutterFrameTicker<._init/<@resource:///org/gnome/shell/ui/tweener.js:183:17
+okt 25 12:30:54 kenni gnome-shell[800]: JS ERROR: TypeError: Main.layoutManager.primaryMonitor is undefined
+                                        Panel<._getPreferredWidth@resource:///org/gnome/shell/ui/panel.js:843:9
+                                        wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22
+                                        LayoutManager<._init/<@resource:///org/gnome/shell/ui/layout.js:204:33
+                                        UserList<.scrollToItem@resource:///org/gnome/shell/gdm/loginDialog.js:203:19
+                                        wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22
+                                        UserList<.addUser/<@resource:///org/gnome/shell/gdm/loginDialog.js:267:42
+                                        UserList<._moveFocusToItems@resource:///org/gnome/shell/gdm/loginDialog.js:175:24
+                                        wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22
+                                        LoginDialog<._showUserList@resource:///org/gnome/shell/gdm/loginDialog.js:1131:9
+                                        wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22
+                                        LoginDialog<._onReset@resource:///org/gnome/shell/gdm/loginDialog.js:843:17
+                                        wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22
+                                        _emit@resource:///org/gnome/gjs/modules/signals.js:126:27
+                                        AuthPrompt<.reset@resource:///org/gnome/shell/gdm/authPrompt.js:480:9
+                                        wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22
+                                        LoginDialog<._loginScreenSessionActivated/<.onComplete@resource:///org/gnome/shell/gdm/loginDialog.js:937:36
+                                        _addHandler/params[name]@resource:///org/gnome/shell/ui/tweener.js:91:13
+                                        _callOnFunction@resource:///org/gnome/gjs/modules/tweener/tweener.js:203:13
+                                        _updateTweenByIndex@resource:///org/gnome/gjs/modules/tweener/tweener.js:332:9
+                                        _updateTweens@resource:///org/gnome/gjs/modules/tweener/tweener.js:345:18
+                                        _onEnterFrame@resource:///org/gnome/gjs/modules/tweener/tweener.js:360:10
+                                        _emit@resource:///org/gnome/gjs/modules/signals.js:126:27
+                                        ClutterFrameTicker<._onNewFrame@resource:///org/gnome/shell/ui/tweener.js:208:9
+                                        wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22
+                                        ClutterFrameTicker<._init/<@resource:///org/gnome/shell/ui/tweener.js:183:17
+okt 25 12:30:54 kenni gnome-shell[800]: meta_monitor_manager_get_logical_monitor_from_number: assertion '(unsigned int) number < g_list_length (manager->logical_monitors)' failed
+okt 25 12:30:54 kenni gnome-shell[800]: meta_workspace_get_work_area_for_monitor: assertion 'logical_monitor != NULL' failed
+okt 25 12:30:54 kenni gnome-shell[800]: JS ERROR: TypeError: rect is undefined
+                                        MonitorConstraint<.vfunc_update_allocation@resource:///org/gnome/shell/ui/layout.js:146:9
+                                        wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22
+                                        LayoutManager<._init/<@resource:///org/gnome/shell/ui/layout.js:204:33
+                                        UserList<.scrollToItem@resource:///org/gnome/shell/gdm/loginDialog.js:203:19
+                                        wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22
+                                        UserList<.addUser/<@resource:///org/gnome/shell/gdm/loginDialog.js:267:42
+                                        UserList<._moveFocusToItems@resource:///org/gnome/shell/gdm/loginDialog.js:175:24
+                                        wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22
+                                        LoginDialog<._showUserList@resource:///org/gnome/shell/gdm/loginDialog.js:1131:9
+                                        wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22
+                                        LoginDialog<._onReset@resource:///org/gnome/shell/gdm/loginDialog.js:843:17
+                                        wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22
+                                        _emit@resource:///org/gnome/gjs/modules/signals.js:126:27
+                                        AuthPrompt<.reset@resource:///org/gnome/shell/gdm/authPrompt.js:480:9
+                                        wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22
+                                        LoginDialog<._loginScreenSessionActivated/<.onComplete@resource:///org/gnome/shell/gdm/loginDialog.js:937:36
+                                        _addHandler/params[name]@resource:///org/gnome/shell/ui/tweener.js:91:13
+                                        _callOnFunction@resource:///org/gnome/gjs/modules/tweener/tweener.js:203:13
+                                        _updateTweenByIndex@resource:///org/gnome/gjs/modules/tweener/tweener.js:332:9
+                                        _updateTweens@resource:///org/gnome/gjs/modules/tweener/tweener.js:345:18
+                                        _onEnterFrame@resource:///org/gnome/gjs/modules/tweener/tweener.js:360:10
+                                        _emit@resource:///org/gnome/gjs/modules/signals.js:126:27
+                                        ClutterFrameTicker<._onNewFrame@resource:///org/gnome/shell/ui/tweener.js:208:9
+                                        wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22
+                                        ClutterFrameTicker<._init/<@resource:///org/gnome/shell/ui/tweener.js:183:17
+okt 25 12:30:54 kenni gnome-shell[800]: JS ERROR: TypeError: rect is undefined
+                                        MonitorConstraint<.vfunc_update_allocation@resource:///org/gnome/shell/ui/layout.js:146:9
+                                        wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22
+                                        LayoutManager<._init/<@resource:///org/gnome/shell/ui/layout.js:204:33
+okt 25 12:30:54 kenni gnome-shell[800]: clutter-actor.c:10050: Actor 'StScrollBar' tried to allocate a size of -13,00 x 14,00
+okt 25 12:30:54 kenni gnome-shell[800]: clutter-actor.c:10050: Actor 'StBoxLayout' tried to allocate a size of -13,00 x 1,00
+okt 25 12:30:54 kenni gnome-shell[800]: meta_monitor_manager_get_logical_monitor_from_number: assertion '(unsigned int) number < g_list_length (manager->logical_monitors)' failed
+okt 25 12:30:54 kenni gnome-shell[800]: meta_workspace_get_work_area_for_monitor: assertion 'logical_monitor != NULL' failed
+okt 25 12:30:54 kenni gnome-shell[800]: JS ERROR: TypeError: rect is undefined
+                                        MonitorConstraint<.vfunc_update_allocation@resource:///org/gnome/shell/ui/layout.js:146:9
+                                        wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22
+                                        LayoutManager<._init/<@resource:///org/gnome/shell/ui/layout.js:204:33
+okt 25 12:30:54 kenni gnome-shell[800]: JS ERROR: TypeError: rect is undefined
+                                        MonitorConstraint<.vfunc_update_allocation@resource:///org/gnome/shell/ui/layout.js:146:9
+                                        wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22
+                                        LayoutManager<._init/<@resource:///org/gnome/shell/ui/layout.js:204:33
+okt 25 12:30:54 kenni gnome-shell[800]: clutter-actor.c:10050: Actor 'StScrollBar' tried to allocate a size of -13,00 x 14,00
+okt 25 12:30:54 kenni gnome-shell[800]: clutter-actor.c:10050: Actor 'StBoxLayout' tried to allocate a size of -13,00 x 1,00
+okt 25 12:30:54 kenni gnome-shell[800]: JS ERROR: TypeError: Main.layoutManager.primaryMonitor is undefined
+                                        Panel<._getPreferredWidth@resource:///org/gnome/shell/ui/panel.js:843:9
+                                        wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22
+                                        LayoutManager<._init/<@resource:///org/gnome/shell/ui/layout.js:204:33
+okt 25 12:30:54 kenni gnome-shell[800]: JS ERROR: TypeError: Main.layoutManager.primaryMonitor is undefined
+                                        Panel<._getPreferredWidth@resource:///org/gnome/shell/ui/panel.js:843:9
+                                        wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22
+                                        LayoutManager<._init/<@resource:///org/gnome/shell/ui/layout.js:204:33
+okt 25 12:30:54 kenni gnome-shell[800]: meta_monitor_manager_get_logical_monitor_from_number: assertion '(unsigned int) number < g_list_length (manager->logical_monitors)' failed
+okt 25 12:30:54 kenni gnome-shell[800]: meta_workspace_get_work_area_for_monitor: assertion 'logical_monitor != NULL' failed
+okt 25 12:30:54 kenni gnome-shell[800]: JS ERROR: TypeError: rect is undefined
+                                        MonitorConstraint<.vfunc_update_allocation@resource:///org/gnome/shell/ui/layout.js:146:9
+                                        wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22
+                                        LayoutManager<._init/<@resource:///org/gnome/shell/ui/layout.js:204:33
+okt 25 12:30:54 kenni gnome-shell[800]: JS ERROR: TypeError: Main.layoutManager.primaryMonitor is undefined
+                                        Panel<._getPreferredWidth@resource:///org/gnome/shell/ui/panel.js:843:9
+                                        wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22
+                                        LayoutManager<._init/<@resource:///org/gnome/shell/ui/layout.js:204:33
+okt 25 12:30:54 kenni gnome-shell[800]: JS ERROR: TypeError: Main.layoutManager.primaryMonitor is undefined
+                                        Panel<._getPreferredWidth@resource:///org/gnome/shell/ui/panel.js:843:9
+                                        wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22
+                                        LayoutManager<._init/<@resource:///org/gnome/shell/ui/layout.js:204:33
+okt 25 12:30:54 kenni gnome-shell[800]: meta_monitor_manager_get_logical_monitor_from_number: assertion '(unsigned int) number < g_list_length (manager->logical_monitors)' failed
+okt 25 12:30:54 kenni gnome-shell[800]: meta_workspace_get_work_area_for_monitor: assertion 'logical_monitor != NULL' failed
+okt 25 12:30:54 kenni gnome-shell[800]: JS ERROR: TypeError: rect is undefined
+                                        MonitorConstraint<.vfunc_update_allocation@resource:///org/gnome/shell/ui/layout.js:146:9
+                                        wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22
+                                        LayoutManager<._init/<@resource:///org/gnome/shell/ui/layout.js:204:33
+okt 25 12:30:54 kenni kernel: traps: gnome-shell[800] general protection ip:7f91c08ea243 sp:7ffe92601418 error:0 in libgbm.so.1.0.0[7f91c08e7000+d000]
+okt 25 12:31:11 kenni org.gnome.Shell.desktop[800]: (EE)
+okt 25 12:31:11 kenni org.gnome.Shell.desktop[800]: Fatal server error:
+okt 25 12:31:11 kenni org.gnome.Shell.desktop[800]: (EE) failed to read Wayland events: Broken pipe
+okt 25 12:31:11 kenni org.gnome.Shell.desktop[800]: (EE)
+okt 25 12:31:11 kenni polkitd(authority=local)[718]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.22, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale da_DK.UTF-8) (disconnected from bus)
+okt 25 12:31:11 kenni gnome-session[792]: gnome-session-binary[792]: WARNING: Application 'org.gnome.Shell.desktop' killed by signal 11
+okt 25 12:31:11 kenni gnome-session-binary[792]: Unrecoverable failure in required component org.gnome.Shell.desktop
+okt 25 12:31:11 kenni gnome-session-binary[792]: WARNING: Application 'org.gnome.Shell.desktop' killed by signal 11
+okt 25 12:31:11 kenni gsd-media-keys[891]: gsd-media-keys: Fatal IO error 11 (Resursen midlertidig utilgængelig) on X server :1024.
+okt 25 12:31:11 kenni org.a11y.atspi.Registry[835]: XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":1024"
+okt 25 12:31:11 kenni org.a11y.atspi.Registry[835]:       after 21 requests (21 known processed) with 0 events remaining.
+okt 25 12:31:11 kenni gsd-color[884]: gsd-color: Fatal IO error 11 (Resursen midlertidig utilgængelig) on X server :1024.
+okt 25 12:31:11 kenni gsd-wacom[875]: gsd-wacom: Fatal IO error 11 (Resursen midlertidig utilgængelig) on X server :1024.
+okt 25 12:31:11 kenni gsd-keyboard[890]: gsd-keyboard: Fatal IO error 11 (Resursen midlertidig utilgængelig) on X server :1024.
+okt 25 12:31:11 kenni gsd-xsettings[877]: gsd-xsettings: Fatal IO error 104 (Forbindelsen brudt i den anden ende) on X server :1024.
+okt 25 12:31:11 kenni gsd-a11y-keyboa[878]: gsd-a11y-keyboard: Fatal IO error 11 (Resursen midlertidig utilgængelig) on X server :1024.
+okt 25 12:31:11 kenni gsd-clipboard[883]: gsd-clipboard: Fatal IO error 11 (Resursen midlertidig utilgængelig) on X server :1024.
+okt 25 12:31:11 kenni gsd-power[898]: gsd-power: Fatal IO error 11 (Resursen midlertidig utilgængelig) on X server :1024.
+okt 25 12:31:11 kenni gdm-launch-environment][771]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+okt 25 12:31:11 kenni kernel: [drm] Reducing the compressed framebuffer size. This may lead to less power savings than a non-reduced-size. Try to increase stolen memory size if available in BIOS.
+okt 25 12:31:11 kenni gdm3[762]: Child process -788 was already dead.
+okt 25 12:31:11 kenni gdm-launch-environment][11873]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+okt 25 12:31:11 kenni systemd-logind[671]: New session c2 of user gdm.
+okt 25 12:31:11 kenni systemd[1]: Started Session c2 of user gdm.
+okt 25 12:31:11 kenni systemd-logind[671]: Removed session c1.
+okt 25 12:31:11 kenni dbus-daemon[790]: Activating service name='org.gnome.ScreenSaver'
+okt 25 12:31:11 kenni org.gnome.ScreenSaver[790]: Unable to init server: Kunne ikke forbinde: Opkobling nægtet
+okt 25 12:31:11 kenni gnome-screensav[11886]: Kan ikke åbne terminal: 
+okt 25 12:31:11 kenni dbus-daemon[790]: Activated service 'org.gnome.ScreenSaver' failed: Process org.gnome.ScreenSaver exited with status 1
+okt 25 12:31:11 kenni gnome-session[11880]: gnome-session-binary[11880]: CRITICAL: Unable to create a DBus proxy for GnomeScreensaver: Fejl ved kald til StartServiceByName for org.gnome.ScreenSaver: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.gnome.ScreenSaver exited with status 1
+okt 25 12:31:11 kenni gnome-session-binary[11880]: CRITICAL: Unable to create a DBus proxy for GnomeScreensaver: Fejl ved kald til StartServiceByName for org.gnome.ScreenSaver: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.gnome.ScreenSaver exited with status 1
+okt 25 12:31:11 kenni dbus[648]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.3" (uid=0 pid=671 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.139" (uid=121 pid=11888 comm="/usr/bin/gnome-shell ")
+okt 25 12:31:11 kenni dbus[648]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.3" (uid=0 pid=671 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.139" (uid=121 pid=11888 comm="/usr/bin/gnome-shell ")
+okt 25 12:31:11 kenni dbus[648]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.3" (uid=0 pid=671 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.139" (uid=121 pid=11888 comm="/usr/bin/gnome-shell ")
+okt 25 12:31:11 kenni dbus[648]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.3" (uid=0 pid=671 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.139" (uid=121 pid=11888 comm="/usr/bin/gnome-shell ")
+okt 25 12:31:11 kenni dbus[648]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.3" (uid=0 pid=671 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.139" (uid=121 pid=11888 comm="/usr/bin/gnome-shell ")
+okt 25 12:31:11 kenni dbus[648]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.3" (uid=0 pid=671 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.139" (uid=121 pid=11888 comm="/usr/bin/gnome-shell ")
+okt 25 12:31:11 kenni dbus[648]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.3" (uid=0 pid=671 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.139" (uid=121 pid=11888 comm="/usr/bin/gnome-shell ")
+okt 25 12:31:11 kenni dbus[648]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.3" (uid=0 pid=671 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.139" (uid=121 pid=11888 comm="/usr/bin/gnome-shell ")
+okt 25 12:31:11 kenni dbus[648]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.3" (uid=0 pid=671 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.139" (uid=121 pid=11888 comm="/usr/bin/gnome-shell ")
+okt 25 12:31:11 kenni dbus[648]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.3" (uid=0 pid=671 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.139" (uid=121 pid=11888 comm="/usr/bin/gnome-shell ")
+okt 25 12:31:11 kenni dbus[648]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.3" (uid=0 pid=671 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.139" (uid=121 pid=11888 comm="/usr/bin/gnome-shell ")
+okt 25 12:31:11 kenni dbus[648]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.3" (uid=0 pid=671 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.139" (uid=121 pid=11888 comm="/usr/bin/gnome-shell ")
+okt 25 12:31:11 kenni dbus[648]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.3" (uid=0 pid=671 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.139" (uid=121 pid=11888 comm="/usr/bin/gnome-shell ")
+okt 25 12:31:11 kenni dbus[648]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.3" (uid=0 pid=671 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.139" (uid=121 pid=11888 comm="/usr/bin/gnome-shell ")
+okt 25 12:31:11 kenni dbus[648]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.3" (uid=0 pid=671 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.139" (uid=121 pid=11888 comm="/usr/bin/gnome-shell ")
+okt 25 12:31:11 kenni dbus[648]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.3" (uid=0 pid=671 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.139" (uid=121 pid=11888 comm="/usr/bin/gnome-shell ")
+okt 25 12:31:11 kenni dbus[648]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.3" (uid=0 pid=671 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.139" (uid=121 pid=11888 comm="/usr/bin/gnome-shell ")
+okt 25 12:31:11 kenni dbus[648]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.3" (uid=0 pid=671 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.139" (uid=121 pid=11888 comm="/usr/bin/gnome-shell ")
+okt 25 12:31:11 kenni dbus[648]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.3" (uid=0 pid=671 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.139" (uid=121 pid=11888 comm="/usr/bin/gnome-shell ")
+okt 25 12:31:11 kenni org.gnome.Shell.desktop[11888]: glamor: EGL version 1.4 (DRI2):
+okt 25 12:31:11 kenni at-spi-bus-launcher[830]: Activating service name='org.a11y.atspi.Registry'
+okt 25 12:31:11 kenni at-spi-bus-launcher[830]: Successfully activated service 'org.a11y.atspi.Registry'
+okt 25 12:31:11 kenni org.a11y.atspi.Registry[835]: SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+okt 25 12:31:12 kenni gnome-shell[11888]: JS WARNING: [resource:///org/gnome/shell/ui/main.js 315]: reference to undefined property "MetaStage"
+okt 25 12:31:12 kenni gnome-shell[11888]: JS WARNING: [resource:///org/gnome/shell/ui/layout.js 217]: reference to undefined property "MetaWindowGroup"
+okt 25 12:31:12 kenni gnome-shell[11888]: JS WARNING: [resource:///org/gnome/shell/ui/osdMonitorLabeler.js 59]: reference to undefined property "MetaDBusDisplayConfigSkeleton"
+okt 25 12:31:12 kenni dbus[648]: [system] Activating via systemd: service name='org.freedesktop.locale1' unit='dbus-org.freedesktop.locale1.service'
+okt 25 12:31:12 kenni systemd[1]: Starting Locale Service...
+okt 25 12:31:12 kenni org.gnome.Shell.desktop[11888]: current session already has an ibus-daemon.
+okt 25 12:31:12 kenni gnome-shell[11888]: JS WARNING: [resource:///org/gnome/shell/ui/slider.js 38]: reference to undefined property "CallyActor"
+okt 25 12:31:12 kenni dbus[648]: [system] Activating via systemd: service name='org.freedesktop.GeoClue2' unit='geoclue.service'
+okt 25 12:31:12 kenni systemd[1]: Starting Location Lookup Service...
+okt 25 12:31:12 kenni dbus[648]: [system] Successfully activated service 'org.freedesktop.GeoClue2'
+okt 25 12:31:12 kenni systemd[1]: Started Location Lookup Service.
+okt 25 12:31:12 kenni polkitd(authority=local)[718]: Registered Authentication Agent for unix-session:c2 (system bus name :1.139 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale da_DK.UTF-8)
+okt 25 12:31:12 kenni dbus[648]: [system] Successfully activated service 'org.freedesktop.locale1'
+okt 25 12:31:12 kenni systemd[1]: Started Locale Service.
+okt 25 12:31:12 kenni gnome-shell[11888]: JS WARNING: [resource:///org/gnome/gjs/modules/tweener/tweener.js 540]: reference to undefined property "isSpecialProperty"
+okt 25 12:31:12 kenni gnome-shell[11888]: Error looking up permission: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.impl.portal.PermissionStore was not provided by any .service files
+okt 25 12:31:12 kenni gnome-session-binary[11880]: Entering running state
+okt 25 12:31:12 kenni dbus[648]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service'
+okt 25 12:31:12 kenni systemd[1]: Starting Hostname Service...
+okt 25 12:31:12 kenni xbrlapi.desktop[12005]: openConnection: connect: Ingen sådan fil eller filkatalog
+okt 25 12:31:12 kenni xbrlapi.desktop[12005]: cannot connect to braille devices daemon brltty at :0
+okt 25 12:31:12 kenni gnome-shell[11888]: JS WARNING: [resource:///org/gnome/shell/ui/windowManager.js 1471]: reference to undefined property "MetaWindowX11"
+okt 25 12:31:12 kenni dbus[648]: [system] Successfully activated service 'org.freedesktop.hostname1'
+okt 25 12:31:12 kenni systemd[1]: Started Hostname Service.
+okt 25 12:31:13 kenni gsd-power[11946]: gsd_power_backlight_abs_to_percentage: assertion 'max > min' failed
+okt 25 12:31:13 kenni org.gnome.Shell.desktop[11888]: Window manager warning: "XF86RFKill" is not a valid accelerator
+okt 25 12:31:19 kenni dbus[648]: [system] Failed to activate service 'org.bluez': timed out
+okt 25 12:31:20 kenni gdm-password][12018]: pam_unix(gdm-password:session): session opened for user kenni by kenni(uid=0)
+okt 25 12:31:20 kenni systemd[1]: Created slice User Slice of kenni.
+okt 25 12:31:20 kenni systemd[12022]: pam_unix(systemd-user:session): session opened for user kenni by (uid=0)
+okt 25 12:31:20 kenni systemd[1]: Starting User Manager for UID 1000...
+okt 25 12:31:20 kenni systemd[1]: Started Session 6 of user kenni.
+okt 25 12:31:20 kenni systemd-logind[671]: New session 6 of user kenni.
+okt 25 12:31:20 kenni systemd[12022]: Reached target Timers.
+okt 25 12:31:20 kenni systemd[12022]: Reached target Paths.
+okt 25 12:31:20 kenni systemd[12022]: Starting D-Bus User Message Bus Socket.
+okt 25 12:31:20 kenni systemd[12022]: Listening on D-Bus User Message Bus Socket.
+okt 25 12:31:20 kenni systemd[12022]: Reached target Sockets.
+okt 25 12:31:20 kenni systemd[12022]: Reached target Basic System.
+okt 25 12:31:20 kenni systemd[12022]: Reached target Default.
+okt 25 12:31:20 kenni systemd[12022]: Startup finished in 17ms.
+okt 25 12:31:20 kenni systemd[1]: Started User Manager for UID 1000.
+okt 25 12:31:20 kenni systemd[12022]: Started D-Bus User Message Bus.
+okt 25 12:31:20 kenni dbus-daemon[12037]: Activating via systemd: service name='org.gtk.vfs.Daemon' unit='gvfs-daemon.service'
+okt 25 12:31:20 kenni systemd[12022]: Starting Virtual filesystem service...
+okt 25 12:31:20 kenni dbus-daemon[12037]: Successfully activated service 'org.gtk.vfs.Daemon'
+okt 25 12:31:20 kenni systemd[12022]: Started Virtual filesystem service.
+okt 25 12:31:20 kenni dbus-daemon[12037]: Activating service name='org.gnome.ScreenSaver'
+okt 25 12:31:20 kenni org.gnome.ScreenSaver[12037]: Unable to init server: Kunne ikke forbinde: Opkobling nægtet
+okt 25 12:31:20 kenni gnome-screensav[12109]: Kan ikke åbne terminal: 
+okt 25 12:31:20 kenni dbus-daemon[12037]: Activated service 'org.gnome.ScreenSaver' failed: Process org.gnome.ScreenSaver exited with status 1
+okt 25 12:31:20 kenni gnome-session[12039]: gnome-session-binary[12039]: CRITICAL: Unable to create a DBus proxy for GnomeScreensaver: Fejl ved kald til StartServiceByName for org.gnome.ScreenSaver: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.gnome.ScreenSaver exited with status 1
+okt 25 12:31:20 kenni gnome-session-binary[12039]: CRITICAL: Unable to create a DBus proxy for GnomeScreensaver: Fejl ved kald til StartServiceByName for org.gnome.ScreenSaver: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.gnome.ScreenSaver exited with status 1
+okt 25 12:31:20 kenni gnome-keyring-ssh.desktop[12113]: SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+okt 25 12:31:20 kenni gnome-keyring-pkcs11.desktop[12115]: SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+okt 25 12:31:20 kenni dbus[648]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.3" (uid=0 pid=671 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.155" (uid=1000 pid=12120 comm="/usr/bin/gnome-shell ")
+okt 25 12:31:20 kenni dbus[648]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.3" (uid=0 pid=671 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.155" (uid=1000 pid=12120 comm="/usr/bin/gnome-shell ")
+okt 25 12:31:20 kenni dbus[648]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.3" (uid=0 pid=671 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.155" (uid=1000 pid=12120 comm="/usr/bin/gnome-shell ")
+okt 25 12:31:20 kenni dbus[648]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.3" (uid=0 pid=671 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.155" (uid=1000 pid=12120 comm="/usr/bin/gnome-shell ")
+okt 25 12:31:20 kenni dbus[648]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.3" (uid=0 pid=671 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.155" (uid=1000 pid=12120 comm="/usr/bin/gnome-shell ")
+okt 25 12:31:20 kenni dbus[648]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.3" (uid=0 pid=671 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.155" (uid=1000 pid=12120 comm="/usr/bin/gnome-shell ")
+okt 25 12:31:20 kenni dbus[648]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.3" (uid=0 pid=671 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.155" (uid=1000 pid=12120 comm="/usr/bin/gnome-shell ")
+okt 25 12:31:20 kenni dbus[648]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.3" (uid=0 pid=671 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.155" (uid=1000 pid=12120 comm="/usr/bin/gnome-shell ")
+okt 25 12:31:20 kenni dbus[648]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.3" (uid=0 pid=671 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.155" (uid=1000 pid=12120 comm="/usr/bin/gnome-shell ")
+okt 25 12:31:20 kenni dbus[648]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.3" (uid=0 pid=671 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.155" (uid=1000 pid=12120 comm="/usr/bin/gnome-shell ")
+okt 25 12:31:20 kenni dbus[648]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.3" (uid=0 pid=671 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.155" (uid=1000 pid=12120 comm="/usr/bin/gnome-shell ")
+okt 25 12:31:20 kenni dbus[648]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.3" (uid=0 pid=671 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.155" (uid=1000 pid=12120 comm="/usr/bin/gnome-shell ")
+okt 25 12:31:20 kenni dbus[648]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.3" (uid=0 pid=671 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.155" (uid=1000 pid=12120 comm="/usr/bin/gnome-shell ")
+okt 25 12:31:20 kenni dbus[648]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.3" (uid=0 pid=671 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.155" (uid=1000 pid=12120 comm="/usr/bin/gnome-shell ")
+okt 25 12:31:20 kenni dbus[648]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.3" (uid=0 pid=671 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.155" (uid=1000 pid=12120 comm="/usr/bin/gnome-shell ")
+okt 25 12:31:20 kenni dbus[648]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.3" (uid=0 pid=671 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.155" (uid=1000 pid=12120 comm="/usr/bin/gnome-shell ")
+okt 25 12:31:20 kenni dbus[648]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.3" (uid=0 pid=671 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.155" (uid=1000 pid=12120 comm="/usr/bin/gnome-shell ")
+okt 25 12:31:20 kenni dbus[648]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.3" (uid=0 pid=671 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.155" (uid=1000 pid=12120 comm="/usr/bin/gnome-shell ")
+okt 25 12:31:20 kenni dbus[648]: [system] Rejected send message, 2 matched rules; type="error", sender=":1.3" (uid=0 pid=671 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.155" (uid=1000 pid=12120 comm="/usr/bin/gnome-shell ")
+okt 25 12:31:20 kenni org.gnome.Shell.desktop[12120]: glamor: EGL version 1.4 (DRI2):
+okt 25 12:31:21 kenni dbus-daemon[12037]: Activating via systemd: service name='org.a11y.Bus' unit='at-spi-dbus-bus.service'
+okt 25 12:31:21 kenni systemd[12022]: Starting Accessibility services bus...
+okt 25 12:31:21 kenni dbus-daemon[12037]: Successfully activated service 'org.a11y.Bus'
+okt 25 12:31:21 kenni systemd[12022]: Started Accessibility services bus.
+okt 25 12:31:21 kenni at-spi-bus-launcher[12133]: Activating service name='org.a11y.atspi.Registry'
+okt 25 12:31:21 kenni at-spi-bus-launcher[12133]: Successfully activated service 'org.a11y.atspi.Registry'
+okt 25 12:31:21 kenni org.a11y.atspi.Registry[12138]: SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+okt 25 12:31:21 kenni rtkit-daemon[842]: Successfully made thread 12146 of process 12146 (n/a) owned by '1000' high priority at nice level -11.
+okt 25 12:31:21 kenni rtkit-daemon[842]: Supervising 1 threads of 1 processes of 1 users.
+okt 25 12:31:21 kenni rtkit-daemon[842]: Supervising 1 threads of 1 processes of 1 users.
+okt 25 12:31:21 kenni rtkit-daemon[842]: Successfully made thread 12147 of process 12146 (n/a) owned by '1000' RT at priority 5.
+okt 25 12:31:21 kenni rtkit-daemon[842]: Supervising 2 threads of 1 processes of 1 users.
+okt 25 12:31:21 kenni rtkit-daemon[842]: Supervising 2 threads of 1 processes of 1 users.
+okt 25 12:31:21 kenni rtkit-daemon[842]: Successfully made thread 12148 of process 12146 (n/a) owned by '1000' RT at priority 5.
+okt 25 12:31:21 kenni rtkit-daemon[842]: Supervising 3 threads of 1 processes of 1 users.
+okt 25 12:31:21 kenni dbus[648]: [system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service'
+okt 25 12:31:21 kenni gnome-shell[12120]: JS WARNING: [resource:///org/gnome/shell/ui/main.js 315]: reference to undefined property "MetaStage"
+okt 25 12:31:21 kenni gnome-shell[12120]: JS WARNING: [resource:///org/gnome/shell/ui/layout.js 217]: reference to undefined property "MetaWindowGroup"
+okt 25 12:31:21 kenni gnome-shell[12120]: JS WARNING: [resource:///org/gnome/shell/ui/osdMonitorLabeler.js 59]: reference to undefined property "MetaDBusDisplayConfigSkeleton"
+okt 25 12:31:21 kenni dbus-daemon[12037]: Activating service name='org.gnome.Shell.CalendarServer'
+okt 25 12:31:21 kenni dbus-daemon[12037]: Activating via systemd: service name='org.gnome.evolution.dataserver.Sources5' unit='evolution-source-registry.service'
+okt 25 12:31:21 kenni systemd[12022]: Starting Evolution source registry...
+okt 25 12:31:21 kenni dbus-daemon[12037]: Activating service name='org.gnome.OnlineAccounts'
+okt 25 12:31:21 kenni dbus-daemon[12037]: Successfully activated service 'org.gnome.evolution.dataserver.Sources5'
+okt 25 12:31:21 kenni systemd[12022]: Started Evolution source registry.
+okt 25 12:31:21 kenni dbus-daemon[12037]: Successfully activated service 'org.gnome.Shell.CalendarServer'
+okt 25 12:31:21 kenni goa-daemon[12169]: goa-daemon version 3.26.1 starting
+okt 25 12:31:21 kenni dbus-daemon[12037]: Activating service name='org.gnome.Identity'
+okt 25 12:31:21 kenni dbus-daemon[12037]: Successfully activated service 'org.gnome.OnlineAccounts'
+okt 25 12:31:21 kenni dbus-daemon[12037]: Successfully activated service 'org.gnome.Identity'
+okt 25 12:31:21 kenni gnome-shell[12120]: JS WARNING: [resource:///org/gnome/shell/ui/slider.js 38]: reference to undefined property "CallyActor"
+okt 25 12:31:21 kenni dbus[648]: [system] Activating via systemd: service name='org.freedesktop.GeoClue2' unit='geoclue.service'
+okt 25 12:31:21 kenni systemd[1]: Starting Location Lookup Service...
+okt 25 12:31:21 kenni dbus[648]: [system] Successfully activated service 'org.freedesktop.GeoClue2'
+okt 25 12:31:21 kenni systemd[1]: Started Location Lookup Service.
+okt 25 12:31:21 kenni polkitd(authority=local)[718]: Registered Authentication Agent for unix-session:6 (system bus name :1.155 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale da_DK.UTF-8)
+okt 25 12:31:21 kenni gnome-shell[12120]: Telepathy is not available, chat integration will be disabled.
+okt 25 12:31:21 kenni dbus-daemon[12037]: Activating via systemd: service name='org.gtk.vfs.UDisks2VolumeMonitor' unit='gvfs-udisks2-volume-monitor.service'
+okt 25 12:31:21 kenni systemd[12022]: Starting Virtual filesystem service - disk device monitor...
+okt 25 12:31:21 kenni dbus-daemon[12037]: Successfully activated service 'org.gtk.vfs.UDisks2VolumeMonitor'
+okt 25 12:31:21 kenni systemd[12022]: Started Virtual filesystem service - disk device monitor.
+okt 25 12:31:21 kenni dbus-daemon[12037]: Activating via systemd: service name='org.gtk.vfs.MTPVolumeMonitor' unit='gvfs-mtp-volume-monitor.service'
+okt 25 12:31:21 kenni systemd[12022]: Starting Virtual filesystem service - Media Transfer Protocol monitor...
+okt 25 12:31:21 kenni dbus-daemon[12037]: Successfully activated service 'org.gtk.vfs.MTPVolumeMonitor'
+okt 25 12:31:21 kenni systemd[12022]: Started Virtual filesystem service - Media Transfer Protocol monitor.
+okt 25 12:31:21 kenni dbus-daemon[12037]: Activating via systemd: service name='org.gtk.vfs.GPhoto2VolumeMonitor' unit='gvfs-gphoto2-volume-monitor.service'
+okt 25 12:31:21 kenni systemd[12022]: Starting Virtual filesystem service - digital camera monitor...
+okt 25 12:31:21 kenni dbus-daemon[12037]: Successfully activated service 'org.gtk.vfs.GPhoto2VolumeMonitor'
+okt 25 12:31:21 kenni systemd[12022]: Started Virtual filesystem service - digital camera monitor.
+okt 25 12:31:21 kenni dbus-daemon[12037]: Activating via systemd: service name='org.gtk.vfs.AfcVolumeMonitor' unit='gvfs-afc-volume-monitor.service'
+okt 25 12:31:21 kenni systemd[12022]: Starting Virtual filesystem service - Apple File Conduit monitor...
+okt 25 12:31:21 kenni gvfs-afc-volume-monitor[12218]: Volume monitor alive
+okt 25 12:31:21 kenni dbus-daemon[12037]: Successfully activated service 'org.gtk.vfs.AfcVolumeMonitor'
+okt 25 12:31:21 kenni systemd[12022]: Started Virtual filesystem service - Apple File Conduit monitor.
+okt 25 12:31:21 kenni dbus-daemon[12037]: Activating via systemd: service name='org.gtk.vfs.GoaVolumeMonitor' unit='gvfs-goa-volume-monitor.service'
+okt 25 12:31:21 kenni systemd[12022]: Starting Virtual filesystem service - GNOME Online Accounts monitor...
+okt 25 12:31:21 kenni dbus-daemon[12037]: Successfully activated service 'org.gtk.vfs.GoaVolumeMonitor'
+okt 25 12:31:21 kenni systemd[12022]: Started Virtual filesystem service - GNOME Online Accounts monitor.
+okt 25 12:31:21 kenni gnome-shell[12120]: JS WARNING: [resource:///org/gnome/gjs/modules/tweener/tweener.js 540]: reference to undefined property "isSpecialProperty"
+okt 25 12:31:22 kenni gnome-shell[12120]: Some code accessed the property 'Keys' on the module 'settings'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.
+okt 25 12:31:22 kenni gnome-shell[12120]: Some code accessed the property 'KEY_ROWS' on the module 'prefs'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.
+okt 25 12:31:22 kenni gnome-shell[12120]: Some code accessed the property 'KEY_COLS' on the module 'prefs'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.
+okt 25 12:31:22 kenni gnome-shell[12120]: Some code accessed the property 'KEY_WRAPAROUND' on the module 'prefs'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.
+okt 25 12:31:22 kenni gnome-shell[12120]: Some code accessed the property 'KEY_WRAP_TO_SAME' on the module 'prefs'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.
+okt 25 12:31:22 kenni gnome-shell[12120]: Some code accessed the property 'KEY_MAX_HFRACTION' on the module 'prefs'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.
+okt 25 12:31:22 kenni gnome-shell[12120]: Some code accessed the property 'KEY_MAX_HFRACTION_COLLAPSE' on the module 'prefs'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.
+okt 25 12:31:22 kenni gnome-shell[12120]: Some code accessed the property 'KEY_SHOW_WORKSPACE_LABELS' on the module 'prefs'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.
+okt 25 12:31:22 kenni gnome-shell[12120]: Some code accessed the property 'MAX_THUMBNAIL_SCALE' on the module 'workspaceThumbnail'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.
+okt 25 12:31:22 kenni gnome-shell[12120]: Some code accessed the property 'ThumbnailState' on the module 'workspaceThumbnail'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.
+okt 25 12:31:22 kenni gsd-rfkill[12236]: g_object_notify: object class 'CcRfkillGlib' has no property named 'kernel-noinput'
+okt 25 12:31:22 kenni kernel: rfkill: input handler disabled
+okt 25 12:31:22 kenni gsd-sharing[12251]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit rygel.service not loaded.
+okt 25 12:31:22 kenni gnome-shell[12120]: Some code accessed the property 'DBusMenu' on the module 'interfaces'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.
+okt 25 12:31:22 kenni gsd-sharing[12251]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit gnome-remote-desktop.service not loaded.
+okt 25 12:31:22 kenni gnome-shell[12120]: Some code accessed the property 'WORKAROUND_RELOAD_TYPE_REGISTER' on the module 'util'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.
+okt 25 12:31:22 kenni gnome-shell[12120]: Some code accessed the property 'StatusNotifierWatcher' on the module 'statusNotifierWatcher'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.
+okt 25 12:31:22 kenni gnome-shell[12120]: Some code accessed the property 'StatusNotifierWatcher' on the module 'interfaces'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.
+okt 25 12:31:22 kenni gnome-shell[12120]: JS WARNING: [/usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/appIcons.js 1361]: unreachable code after return statement
+okt 25 12:31:22 kenni gnome-shell[12120]: JS WARNING: [/usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/utils.js 34]: reference to undefined property Symbol.toPrimitive
+okt 25 12:31:22 kenni gnome-shell[12120]: WARNING: addSignalMethods is replacing existing [0x55c9bccc9850 Gjs_ShowAppsIcon.dash-item-container] connect method
+okt 25 12:31:22 kenni gnome-shell[12120]: WARNING: addSignalMethods is replacing existing [0x55c9bccc9850 Gjs_ShowAppsIcon.dash-item-container] disconnect method
+okt 25 12:31:22 kenni gnome-shell[12120]: WARNING: addSignalMethods is replacing existing [0x55c9bccc9850 Gjs_ShowAppsIcon.dash-item-container] emit method
+okt 25 12:31:22 kenni dbus-daemon[12037]: Activating via systemd: service name='org.gnome.evolution.dataserver.Calendar7' unit='evolution-calendar-factory.service'
+okt 25 12:31:22 kenni systemd[12022]: Starting Evolution calendar service...
+okt 25 12:31:22 kenni dbus-daemon[12037]: Successfully activated service 'org.gnome.evolution.dataserver.Calendar7'
+okt 25 12:31:22 kenni systemd[12022]: Started Evolution calendar service.
+okt 25 12:31:22 kenni dbus-daemon[12037]: Activating service name='ca.desrt.dconf'
+okt 25 12:31:22 kenni dbus-daemon[12037]: Activating via systemd: service name='org.gnome.evolution.dataserver.AddressBook9' unit='evolution-addressbook-factory.service'
+okt 25 12:31:22 kenni systemd[12022]: Starting Evolution address book service...
+okt 25 12:31:22 kenni dbus-daemon[12037]: Successfully activated service 'ca.desrt.dconf'
+okt 25 12:31:22 kenni gnome-shell[12120]: Error looking up permission: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.impl.portal.PermissionStore was not provided by any .service files
+okt 25 12:31:22 kenni dbus-daemon[12037]: Successfully activated service 'org.gnome.evolution.dataserver.AddressBook9'
+okt 25 12:31:22 kenni systemd[12022]: Started Evolution address book service.
+okt 25 12:31:22 kenni gnome-session-binary[12039]: Entering running state
+okt 25 12:31:22 kenni kerneloops-applet.desktop[12385]: /usr/share/themes/Ambiance/gtk-2.0/apps/mate-panel.rc:30: error: invalid string constant "murrine-scrollbar", expected valid string constant
+okt 25 12:31:22 kenni org.gnome.Shell.desktop[12120]: Window manager warning: "XF86RFKill" is not a valid accelerator
+okt 25 12:31:22 kenni gsd-power[12230]: gsd_power_backlight_abs_to_percentage: assertion 'max > min' failed
+okt 25 12:31:22 kenni nautilus-autostart.desktop[12387]: sys:1: PyGIWarning: Nautilus was imported without specifying a version first. Use gi.require_version('Nautilus', '3.0') before import to ensure that the right version gets loaded.
+okt 25 12:31:22 kenni dbus-daemon[12037]: Activating service name='org.freedesktop.FileManager1'
+okt 25 12:31:22 kenni org.freedesktop.FileManager1[12037]: sys:1: PyGIWarning: Nautilus was imported without specifying a version first. Use gi.require_version('Nautilus', '3.0') before import to ensure that the right version gets loaded.
+okt 25 12:31:22 kenni dbus-daemon[12037]: Successfully activated service 'org.freedesktop.FileManager1'
+okt 25 12:31:23 kenni gnome-shell[12120]: Some code accessed the property 'Logger' on the module 'util'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.
+okt 25 12:31:23 kenni gnome-shell[12120]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem org.kde.StatusNotifierItem-12389-1/StatusNotifierItem
+okt 25 12:31:23 kenni gnome-shell[12120]: Some code accessed the property 'AppIndicator' on the module 'appIndicator'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.
+okt 25 12:31:23 kenni gnome-shell[12120]: Some code accessed the property 'StatusNotifierItem' on the module 'interfaces'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.
+okt 25 12:31:23 kenni gnome-shell[12120]: Some code accessed the property 'connectSmart' on the module 'util'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.
+okt 25 12:31:23 kenni gnome-shell[12120]: Some code accessed the property 'IndicatorStatusIcon' on the module 'indicatorStatusIcon'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.
+okt 25 12:31:23 kenni gnome-shell[12120]: Some code accessed the property 'IconActor' on the module 'appIndicator'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.
+okt 25 12:31:23 kenni gnome-shell[12120]: Some code accessed the property 'IconCache' on the module 'iconCache'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.
+okt 25 12:31:23 kenni gnome-shell[12120]: Some code accessed the property 'SNIStatus' on the module 'appIndicator'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.
+okt 25 12:31:23 kenni gnome-shell[12120]: Some code accessed the property 'Client' on the module 'dbusMenu'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.
+okt 25 12:31:23 kenni gnome-shell[12120]: GNOME Shell started at Wed Oct 25 2017 12:31:21 GMT+0200 (CEST)
+okt 25 12:31:23 kenni gnome-shell[12120]: Some code accessed the property 'refreshPropertyOnProxy' on the module 'util'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.
+okt 25 12:31:23 kenni gnome-software[12384]: plugin appstream took 0,8 seconds to do setup
+okt 25 12:31:23 kenni gnome-software[12384]: enabled plugins: packagekit-upgrade, ubuntuone, os-release, packagekit-proxy, packagekit-offline, desktop-categories, fwupd, systemd-updates, packagekit-refresh, packagekit-local, packagekit, shell-extensions, appstream, hardcoded-featured, steam, modalias, rewrite-resource, generic-updates, ubuntu-reviews, desktop-menu-path, packagekit-refine, hardcoded-blacklist, hardcoded-popular, provenance, snap, packagekit-history, provenance-license, icons, key-colors, key-colors-metadata
+okt 25 12:31:23 kenni gnome-software[12384]: disabled plugins: repos, dummy, dpkg, epiphany, odrs
+okt 25 12:31:23 kenni gnome-software[12384]: running get-updates-historical with timeout=60 on plugin=fwupd took 1ms
+okt 25 12:31:24 kenni gnome-shell[12120]: Some code accessed the property 'myWorkspaceSwitcherPopup' on the module 'myWorkspaceSwitcherPopup'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.
+okt 25 12:31:24 kenni nautilus-deskto[12387]: Called "net usershare info" but it failed: Fejl under kørsel af underprocessen “net” (No such file or directory)
+okt 25 12:31:24 kenni dbus-daemon[12037]: Activating via systemd: service name='org.gtk.vfs.Metadata' unit='gvfs-metadata.service'
+okt 25 12:31:24 kenni systemd[12022]: Starting Virtual filesystem metadata service...
+okt 25 12:31:24 kenni dbus-daemon[12037]: Successfully activated service 'org.gtk.vfs.Metadata'
+okt 25 12:31:24 kenni systemd[12022]: Started Virtual filesystem metadata service.
+okt 25 12:31:26 kenni org.gnome.SettingsDaemon.MediaKeys.desktop[12272]: Warning: DESKTOP_STARTUP_ID not set and no fallback available.
+okt 25 12:31:26 kenni dbus-daemon[12037]: Activating via systemd: service name='org.gnome.Terminal' unit='gnome-terminal-server.service'
+okt 25 12:31:26 kenni systemd[12022]: Starting GNOME Terminal Server...
+okt 25 12:31:26 kenni dbus-daemon[12037]: Successfully activated service 'org.gnome.Terminal'
+okt 25 12:31:26 kenni systemd[12022]: Started GNOME Terminal Server.
+okt 25 12:31:26 kenni gnome-shell[12120]: setup_framebuffers: assertion 'width > 0' failed
+okt 25 12:31:28 kenni gnome-terminal-[12487]: Unable to load blank_cursor from the cursor theme
+okt 25 12:31:28 kenni gnome-terminal-[12487]: Unable to load blank_cursor from the cursor theme
+okt 25 12:31:32 kenni org.freedesktop.FileManager1[12037]: Initializing Nextcloud-client-nautilus extension
+okt 25 12:31:32 kenni org.freedesktop.FileManager1[12037]: Socket File: /run/user/1000/Nextcloud/socket
+okt 25 12:31:32 kenni org.freedesktop.FileManager1[12037]: Setting connected to True.
+okt 25 12:31:32 kenni org.freedesktop.FileManager1[12037]: Socket watch id: 13
+okt 25 12:31:32 kenni org.freedesktop.FileManager1[12037]: Server response: REGISTER_PATH:/home/kenni/Nextcloud
+okt 25 12:31:32 kenni org.freedesktop.FileManager1[12037]: Server response: STATUS:OK:/home/kenni/Nextcloud
+okt 25 12:31:32 kenni org.freedesktop.FileManager1[12037]: Server response: UPDATE_VIEW:/home/kenni/Nextcloud
+okt 25 12:31:32 kenni org.freedesktop.FileManager1[12037]: Server response: STATUS:OK:/home/kenni/Nextcloud
+okt 25 12:31:32 kenni org.freedesktop.FileManager1[12037]: Server response: UPDATE_VIEW:/home/kenni/Nextcloud
+okt 25 12:31:32 kenni org.freedesktop.FileManager1[12037]: Server response: STATUS:OK:/home/kenni/Nextcloud
+okt 25 12:31:41 kenni gnome-terminal-[12487]: Allocating size to GtkBox 0x5566cee7a750 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
+okt 25 12:31:41 kenni gnome-terminal-[12487]: Allocating size to GtkBox 0x5566cee7a750 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
+okt 25 12:31:41 kenni gnome-terminal-[12487]: Allocating size to GtkBox 0x5566cee7a750 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
+okt 25 12:31:41 kenni gnome-terminal-[12487]: Allocating size to GtkBox 0x5566cee7a750 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
+okt 25 12:31:41 kenni gnome-terminal-[12487]: Allocating size to GtkBox 0x5566cee7a750 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
+okt 25 12:31:41 kenni gnome-terminal-[12487]: Allocating size to GtkBox 0x5566cee7a750 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
+okt 25 12:31:41 kenni gnome-terminal-[12487]: Allocating size to GtkBox 0x5566cee7a750 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
+okt 25 12:31:41 kenni gnome-terminal-[12487]: Allocating size to GtkBox 0x5566cee7a750 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
+okt 25 12:31:41 kenni gnome-terminal-[12487]: Allocating size to GtkBox 0x5566cee7a750 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
+okt 25 12:31:41 kenni gnome-terminal-[12487]: Allocating size to GtkBox 0x5566cee7a750 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
+okt 25 12:31:41 kenni gnome-terminal-[12487]: Allocating size to GtkBox 0x5566cee7a750 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
+okt 25 12:31:41 kenni gnome-terminal-[12487]: Allocating size to GtkBox 0x5566cee7a750 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
+okt 25 12:31:41 kenni gnome-terminal-[12487]: Allocating size to GtkBox 0x5566cee7a750 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
+okt 25 12:31:41 kenni gnome-terminal-[12487]: Allocating size to GtkBox 0x5566cee7a750 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
+okt 25 12:31:41 kenni gnome-terminal-[12487]: Allocating size to GtkBox 0x5566cee7a750 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
+okt 25 12:31:41 kenni gnome-terminal-[12487]: Allocating size to GtkBox 0x5566cee7a750 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
+okt 25 12:31:41 kenni gnome-terminal-[12487]: Allocating size to GtkBox 0x5566cee7a750 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
+okt 25 12:31:41 kenni gnome-terminal-[12487]: Allocating size to GtkBox 0x5566cee7a750 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
+okt 25 12:31:46 kenni pulseaudio[12146]: [pulseaudio] bluez5-util.c: GetManagedObjects() failed: org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+okt 25 12:31:46 kenni dbus[648]: [system] Failed to activate service 'org.bluez': timed out
+okt 25 12:31:49 kenni dbus-daemon[12037]: Activating service name='org.gnome.GConf'
+okt 25 12:31:49 kenni dbus-daemon[12037]: Successfully activated service 'org.gnome.GConf'
+okt 25 12:31:49 kenni dbus-daemon[12037]: Activating service name='org.gnome.ChromeGnomeShell'
+okt 25 12:31:49 kenni dbus-daemon[12037]: Successfully activated service 'org.gnome.ChromeGnomeShell'
+okt 25 12:32:07 kenni gnome-terminal-[12487]: Unable to load blank_cursor from the cursor theme
+okt 25 12:32:07 kenni gnome-terminal-[12487]: Unable to load blank_cursor from the cursor theme
+
+
+syslog.txt
+Oct 25 12:17:01 kenni CRON[9290]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 25 12:27:41 kenni systemd-timesyncd[524]: Timed out waiting for reply from 91.189.94.4:123 (ntp.ubuntu.com).
+Oct 25 12:27:51 kenni systemd-timesyncd[524]: Timed out waiting for reply from 91.189.89.198:123 (ntp.ubuntu.com).
+Oct 25 12:28:01 kenni systemd-timesyncd[524]: Timed out waiting for reply from 91.189.91.157:123 (ntp.ubuntu.com).
+Oct 25 12:28:11 kenni systemd-timesyncd[524]: Timed out waiting for reply from 91.189.89.199:123 (ntp.ubuntu.com).
+Oct 25 12:28:22 kenni systemd-timesyncd[524]: Timed out waiting for reply from [2001:67c:1560:8003::c8]:123 (ntp.ubuntu.com).
+Oct 25 12:28:32 kenni systemd-timesyncd[524]: Timed out waiting for reply from [2001:67c:1560:8003::c7]:123 (ntp.ubuntu.com).
+Oct 25 12:30:54 kenni gnome-shell[1479]: meta_monitor_manager_get_logical_monitor_from_number: assertion '(unsigned int) number < g_list_length (manager->logical_monitors)' failed
+Oct 25 12:30:54 kenni gnome-shell[1479]: meta_workspace_get_work_area_for_monitor: assertion 'logical_monitor != NULL' failed
+Oct 25 12:30:54 kenni kernel: [ 4733.744578] show_signal_msg: 13 callbacks suppressed
+Oct 25 12:30:54 kenni kernel: [ 4733.744581] gnome-shell[1479]: segfault at 1 ip 0000000000000001 sp 00007ffe74912d28 error 14
+Oct 25 12:30:54 kenni gnome-terminal-[2328]: Error reading events from display: Kanalen blev brudt
+Oct 25 12:30:54 kenni nextcloud[1768]: Error reading events from display: Kanalen blev brudt
+Oct 25 12:30:54 kenni update-notifier[2061]: Error reading events from display: Kanalen blev brudt
+Oct 25 12:30:54 kenni systemd[1375]: gnome-terminal-server.service: Main process exited, code=exited, status=1/FAILURE
+Oct 25 12:30:54 kenni org.gnome.Shell.desktop[1479]: (EE)
+Oct 25 12:30:54 kenni org.gnome.Shell.desktop[1479]: Fatal server error:
+Oct 25 12:30:54 kenni org.gnome.Shell.desktop[1479]: (EE) failed to read Wayland events: Broken pipe
+Oct 25 12:30:54 kenni org.gnome.Shell.desktop[1479]: (EE)
+Oct 25 12:30:54 kenni systemd[1375]: gnome-terminal-server.service: Unit entered failed state.
+Oct 25 12:30:54 kenni systemd[1375]: gnome-terminal-server.service: Failed with result 'exit-code'.
+Oct 25 12:30:54 kenni gnome-session[1395]: gnome-session-binary[1395]: WARNING: Application 'org.gnome.Shell.desktop' killed by signal 11
+Oct 25 12:30:54 kenni gnome-session-binary[1395]: WARNING: Application 'org.gnome.Shell.desktop' killed by signal 11
+Oct 25 12:30:54 kenni gnome-session-binary[1395]: Unrecoverable failure in required component org.gnome.Shell.desktop
+Oct 25 12:30:54 kenni org.gnome.Shell.desktop[1479]: xcb_connection_has_error() returned true
+Oct 25 12:30:54 kenni gsd-rfkill[1599]: g_object_notify: object class 'CcRfkillGlib' has no property named 'kernel-noinput'
+Oct 25 12:30:54 kenni thunderbird.desktop[3062]: xcb_connection_has_error() returned true
+Oct 25 12:30:54 kenni org.a11y.atspi.Registry[1497]: XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":0"
+Oct 25 12:30:54 kenni org.a11y.atspi.Registry[1497]:       after 6119 requests (6119 known processed) with 0 events remaining.
+Oct 25 12:30:54 kenni pulseaudio[11845]: [pulseaudio] client-conf-x11.c: xcb_connection_has_error() returned true
+Oct 25 12:30:54 kenni rtkit-daemon[842]: Successfully made thread 11851 of process 11851 (n/a) owned by '1000' high priority at nice level -11.
+Oct 25 12:30:54 kenni rtkit-daemon[842]: Supervising 1 threads of 1 processes of 1 users.
+Oct 25 12:30:54 kenni pulseaudio[11851]: [pulseaudio] pid.c: Stale PID file, overwriting.
+Oct 25 12:30:54 kenni gsd-color[884]: failed to connect to device: Failed to connect to missing device /org/freedesktop/ColorManager/devices/xrandr_Hewlett_Packard_HP_Z27s_CNK64203NP_kenni_1000
+Oct 25 12:30:54 kenni kernel: [ 4733.890164] rfkill: input handler enabled
+Oct 25 12:30:54 kenni kernel: [ 4733.893632] [drm] Reducing the compressed framebuffer size. This may lead to less power savings than a non-reduced-size. Try to increase stolen memory size if available in BIOS.
+Oct 25 12:30:54 kenni pulseaudio[11851]: [pulseaudio] module-alsa-card.c: Failed to open mixer for jack detection
+Oct 25 12:30:54 kenni dbus[648]: [system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service'
+Oct 25 12:30:54 kenni gnome-shell[800]: JS ERROR: TypeError: this.primaryMonitor is undefined#012LayoutManager<._updateBoxes@resource:///org/gnome/shell/ui/layout.js:469:9#012wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22#012LayoutManager<._monitorsChanged@resource:///org/gnome/shell/ui/layout.js:503:9#012wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22
+Oct 25 12:30:54 kenni systemd[1]: Stopping User Manager for UID 1000...
+Oct 25 12:30:54 kenni systemd[1375]: Stopping Evolution address book service...
+Oct 25 12:30:54 kenni systemd[1375]: Stopped target Default.
+Oct 25 12:30:54 kenni systemd[1375]: Stopping Accessibility services bus...
+Oct 25 12:30:54 kenni systemd[1375]: Stopping Evolution source registry...
+Oct 25 12:30:54 kenni systemd[1375]: Stopping Virtual filesystem service - digital camera monitor...
+Oct 25 12:30:54 kenni systemd[1375]: Stopping Evolution calendar service...
+Oct 25 12:30:54 kenni systemd[1375]: Stopping Virtual filesystem service...
+Oct 25 12:30:54 kenni systemd[1375]: Stopping Virtual filesystem service - GNOME Online Accounts monitor...
+Oct 25 12:30:54 kenni systemd[1375]: Stopping Virtual filesystem service - disk device monitor...
+Oct 25 12:30:54 kenni systemd[1375]: Stopping D-Bus User Message Bus...
+Oct 25 12:30:54 kenni systemd[1375]: Stopping Virtual filesystem service - Apple File Conduit monitor...
+Oct 25 12:30:54 kenni systemd[1375]: Stopping Virtual filesystem service - Media Transfer Protocol monitor...
+Oct 25 12:30:54 kenni systemd[1375]: Stopping Virtual filesystem metadata service...
+Oct 25 12:30:54 kenni systemd[1375]: Stopped Virtual filesystem service - Media Transfer Protocol monitor.
+Oct 25 12:30:54 kenni systemd[1375]: Stopped Virtual filesystem service - GNOME Online Accounts monitor.
+Oct 25 12:30:54 kenni systemd[1375]: Stopped Virtual filesystem metadata service.
+Oct 25 12:30:54 kenni systemd[1375]: Stopped Virtual filesystem service - digital camera monitor.
+Oct 25 12:30:54 kenni systemd[1375]: Stopped Virtual filesystem service - Apple File Conduit monitor.
+Oct 25 12:30:54 kenni systemd[1375]: Stopped Virtual filesystem service - disk device monitor.
+Oct 25 12:30:54 kenni systemd[1375]: Stopped Accessibility services bus.
+Oct 25 12:30:54 kenni systemd[1375]: Stopped Evolution address book service.
+Oct 25 12:30:54 kenni systemd[1375]: Stopped D-Bus User Message Bus.
+Oct 25 12:30:54 kenni systemd[1375]: Stopped Evolution calendar service.
+Oct 25 12:30:54 kenni systemd[1375]: Stopped Evolution source registry.
+Oct 25 12:30:54 kenni systemd[1375]: Stopped Virtual filesystem service.
+Oct 25 12:30:54 kenni systemd[1375]: Stopped target Basic System.
+Oct 25 12:30:54 kenni systemd[1375]: Stopped target Paths.
+Oct 25 12:30:54 kenni systemd[1375]: Stopped target Timers.
+Oct 25 12:30:54 kenni systemd[1375]: Stopped target Sockets.
+Oct 25 12:30:54 kenni systemd[1375]: Closed D-Bus User Message Bus Socket.
+Oct 25 12:30:54 kenni systemd[1375]: Reached target Shutdown.
+Oct 25 12:30:54 kenni systemd[1375]: Starting Exit the Session...
+Oct 25 12:30:54 kenni systemd[1375]: Received SIGRTMIN+24 from PID 11860 (kill).
+Oct 25 12:30:54 kenni systemd[1]: Stopped User Manager for UID 1000.
+Oct 25 12:30:54 kenni systemd[1]: Removed slice User Slice of kenni.
+Oct 25 12:30:54 kenni gnome-shell[800]: JS ERROR: TypeError: rect is undefined#012MonitorConstraint<.vfunc_update_allocation@resource:///org/gnome/shell/ui/layout.js:146:9#012wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22#012LayoutManager<._init/<@resource:///org/gnome/shell/ui/layout.js:204:33#012UserList<.scrollToItem@resource:///org/gnome/shell/gdm/loginDialog.js:203:19#012wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22#012UserList<.addUser/<@resource:///org/gnome/shell/gdm/loginDialog.js:267:42#012UserList<._moveFocusToItems@resource:///org/gnome/shell/gdm/loginDialog.js:175:24#012wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22#012LoginDialog<._showUserList@resource:///org/gnome/shell/gdm/loginDialog.js:1131:9#012wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22#012LoginDialog<._onReset@resource:///org/gnome/shell/gdm/loginDialog.js:843:17#012wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22#012_emit@resource:///org/gnome/gjs/modules/signals.js:126:27#012AuthPrompt<.reset@resource:///org/gnome/shell/gdm/authPrompt.js:480:9#012wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22#012LoginDialog<._loginScreenSessionActivated/<.onComplete@resource:///org/gnome/shell/gdm/loginDialog.js:937:36#012_addHandler/params[name]@resource:///org/gnome/shell/ui/tweener.js:91:13#012_callOnFunction@resource:///org/gnome/gjs/modules/tweener/tweener.js:203:13#012_updateTweenByIndex@resource:///org/gnome/gjs/modules/tweener/tweener.js:332:9#012_updateTweens@resource:///org/gnome/gjs/modules/tweener/tweener.js:345:18#012_onEnterFrame@resource:///org/gnome/gjs/modules/tweener/tweener.js:360:10#012_emit@resource:///org/gnome/gjs/modules/signals.js:126:27#012ClutterFrameTicker<._onNewFrame@resource:///org/gnome/shell/ui/tweener.js:208:9#012wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22#012ClutterFrameTicker<._init/<@resource:///org/gnome/shell/ui/tweener.js:183:17
+Oct 25 12:30:54 kenni gnome-shell[800]: clutter-actor.c:10050: Actor 'StScrollBar' tried to allocate a size of -13,00 x 14,00
+Oct 25 12:30:54 kenni gnome-shell[800]: clutter-actor.c:10050: Actor 'StBoxLayout' tried to allocate a size of -13,00 x 1,00
+Oct 25 12:30:54 kenni gnome-shell[800]: JS ERROR: TypeError: Main.layoutManager.primaryMonitor is undefined#012Panel<._getPreferredWidth@resource:///org/gnome/shell/ui/panel.js:843:9#012wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22#012LayoutManager<._init/<@resource:///org/gnome/shell/ui/layout.js:204:33#012UserList<.scrollToItem@resource:///org/gnome/shell/gdm/loginDialog.js:203:19#012wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22#012UserList<.addUser/<@resource:///org/gnome/shell/gdm/loginDialog.js:267:42#012UserList<._moveFocusToItems@resource:///org/gnome/shell/gdm/loginDialog.js:175:24#012wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22#012LoginDialog<._showUserList@resource:///org/gnome/shell/gdm/loginDialog.js:1131:9#012wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22#012LoginDialog<._onReset@resource:///org/gnome/shell/gdm/loginDialog.js:843:17#012wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22#012_emit@resource:///org/gnome/gjs/modules/signals.js:126:27#012AuthPrompt<.reset@resource:///org/gnome/shell/gdm/authPrompt.js:480:9#012wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22#012LoginDialog<._loginScreenSessionActivated/<.onComplete@resource:///org/gnome/shell/gdm/loginDialog.js:937:36#012_addHandler/params[name]@resource:///org/gnome/shell/ui/tweener.js:91:13#012_callOnFunction@resource:///org/gnome/gjs/modules/tweener/tweener.js:203:13#012_updateTweenByIndex@resource:///org/gnome/gjs/modules/tweener/tweener.js:332:9#012_updateTweens@resource:///org/gnome/gjs/modules/tweener/tweener.js:345:18#012_onEnterFrame@resource:///org/gnome/gjs/modules/tweener/tweener.js:360:10#012_emit@resource:///org/gnome/gjs/modules/signals.js:126:27#012ClutterFrameTicker<._onNewFrame@resource:///org/gnome/shell/ui/tweener.js:208:9#012wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22#012ClutterFrameTicker<._init/<@resource:///org/gnome/shell/ui/tweener.js:183:17
+Oct 25 12:30:54 kenni gnome-shell[800]: JS ERROR: TypeError: Main.layoutManager.primaryMonitor is undefined#012Panel<._getPreferredWidth@resource:///org/gnome/shell/ui/panel.js:843:9#012wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22#012LayoutManager<._init/<@resource:///org/gnome/shell/ui/layout.js:204:33#012UserList<.scrollToItem@resource:///org/gnome/shell/gdm/loginDialog.js:203:19#012wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22#012UserList<.addUser/<@resource:///org/gnome/shell/gdm/loginDialog.js:267:42#012UserList<._moveFocusToItems@resource:///org/gnome/shell/gdm/loginDialog.js:175:24#012wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22#012LoginDialog<._showUserList@resource:///org/gnome/shell/gdm/loginDialog.js:1131:9#012wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22#012LoginDialog<._onReset@resource:///org/gnome/shell/gdm/loginDialog.js:843:17#012wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22#012_emit@resource:///org/gnome/gjs/modules/signals.js:126:27#012AuthPrompt<.reset@resource:///org/gnome/shell/gdm/authPrompt.js:480:9#012wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22#012LoginDialog<._loginScreenSessionActivated/<.onComplete@resource:///org/gnome/shell/gdm/loginDialog.js:937:36#012_addHandler/params[name]@resource:///org/gnome/shell/ui/tweener.js:91:13#012_callOnFunction@resource:///org/gnome/gjs/modules/tweener/tweener.js:203:13#012_updateTweenByIndex@resource:///org/gnome/gjs/modules/tweener/tweener.js:332:9#012_updateTweens@resource:///org/gnome/gjs/modules/tweener/tweener.js:345:18#012_onEnterFrame@resource:///org/gnome/gjs/modules/tweener/tweener.js:360:10#012_emit@resource:///org/gnome/gjs/modules/signals.js:126:27#012ClutterFrameTicker<._onNewFrame@resource:///org/gnome/shell/ui/tweener.js:208:9#012wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22#012ClutterFrameTicker<._init/<@resource:///org/gnome/shell/ui/tweener.js:183:17
+Oct 25 12:30:54 kenni gnome-shell[800]: meta_monitor_manager_get_logical_monitor_from_number: assertion '(unsigned int) number < g_list_length (manager->logical_monitors)' failed
+Oct 25 12:30:54 kenni gnome-shell[800]: meta_workspace_get_work_area_for_monitor: assertion 'logical_monitor != NULL' failed
+Oct 25 12:30:54 kenni gnome-shell[800]: JS ERROR: TypeError: rect is undefined#012MonitorConstraint<.vfunc_update_allocation@resource:///org/gnome/shell/ui/layout.js:146:9#012wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22#012LayoutManager<._init/<@resource:///org/gnome/shell/ui/layout.js:204:33#012UserList<.scrollToItem@resource:///org/gnome/shell/gdm/loginDialog.js:203:19#012wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22#012UserList<.addUser/<@resource:///org/gnome/shell/gdm/loginDialog.js:267:42#012UserList<._moveFocusToItems@resource:///org/gnome/shell/gdm/loginDialog.js:175:24#012wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22#012LoginDialog<._showUserList@resource:///org/gnome/shell/gdm/loginDialog.js:1131:9#012wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22#012LoginDialog<._onReset@resource:///org/gnome/shell/gdm/loginDialog.js:843:17#012wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22#012_emit@resource:///org/gnome/gjs/modules/signals.js:126:27#012AuthPrompt<.reset@resource:///org/gnome/shell/gdm/authPrompt.js:480:9#012wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22#012LoginDialog<._loginScreenSessionActivated/<.onComplete@resource:///org/gnome/shell/gdm/loginDialog.js:937:36#012_addHandler/params[name]@resource:///org/gnome/shell/ui/tweener.js:91:13#012_callOnFunction@resource:///org/gnome/gjs/modules/tweener/tweener.js:203:13#012_updateTweenByIndex@resource:///org/gnome/gjs/modules/tweener/tweener.js:332:9#012_updateTweens@resource:///org/gnome/gjs/modules/tweener/tweener.js:345:18#012_onEnterFrame@resource:///org/gnome/gjs/modules/tweener/tweener.js:360:10#012_emit@resource:///org/gnome/gjs/modules/signals.js:126:27#012ClutterFrameTicker<._onNewFrame@resource:///org/gnome/shell/ui/tweener.js:208:9#012wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22#012ClutterFrameTicker<._init/<@resource:///org/gnome/shell/ui/tweener.js:183:17
+Oct 25 12:30:54 kenni gnome-shell[800]: JS ERROR: TypeError: rect is undefined#012MonitorConstraint<.vfunc_update_allocation@resource:///org/gnome/shell/ui/layout.js:146:9#012wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22#012LayoutManager<._init/<@resource:///org/gnome/shell/ui/layout.js:204:33
+Oct 25 12:30:54 kenni gnome-shell[800]: clutter-actor.c:10050: Actor 'StScrollBar' tried to allocate a size of -13,00 x 14,00
+Oct 25 12:30:54 kenni gnome-shell[800]: clutter-actor.c:10050: Actor 'StBoxLayout' tried to allocate a size of -13,00 x 1,00
+Oct 25 12:30:54 kenni gnome-shell[800]: meta_monitor_manager_get_logical_monitor_from_number: assertion '(unsigned int) number < g_list_length (manager->logical_monitors)' failed
+Oct 25 12:30:54 kenni gnome-shell[800]: meta_workspace_get_work_area_for_monitor: assertion 'logical_monitor != NULL' failed
+Oct 25 12:30:54 kenni gnome-shell[800]: JS ERROR: TypeError: rect is undefined#012MonitorConstraint<.vfunc_update_allocation@resource:///org/gnome/shell/ui/layout.js:146:9#012wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22#012LayoutManager<._init/<@resource:///org/gnome/shell/ui/layout.js:204:33
+Oct 25 12:30:54 kenni gnome-shell[800]: JS ERROR: TypeError: rect is undefined#012MonitorConstraint<.vfunc_update_allocation@resource:///org/gnome/shell/ui/layout.js:146:9#012wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22#012LayoutManager<._init/<@resource:///org/gnome/shell/ui/layout.js:204:33
+Oct 25 12:30:54 kenni gnome-shell[800]: clutter-actor.c:10050: Actor 'StScrollBar' tried to allocate a size of -13,00 x 14,00
+Oct 25 12:30:54 kenni gnome-shell[800]: clutter-actor.c:10050: Actor 'StBoxLayout' tried to allocate a size of -13,00 x 1,00
+Oct 25 12:30:54 kenni gnome-shell[800]: JS ERROR: TypeError: Main.layoutManager.primaryMonitor is undefined#012Panel<._getPreferredWidth@resource:///org/gnome/shell/ui/panel.js:843:9#012wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22#012LayoutManager<._init/<@resource:///org/gnome/shell/ui/layout.js:204:33
+Oct 25 12:30:54 kenni gnome-shell[800]: JS ERROR: TypeError: Main.layoutManager.primaryMonitor is undefined#012Panel<._getPreferredWidth@resource:///org/gnome/shell/ui/panel.js:843:9#012wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22#012LayoutManager<._init/<@resource:///org/gnome/shell/ui/layout.js:204:33
+Oct 25 12:30:54 kenni gnome-shell[800]: meta_monitor_manager_get_logical_monitor_from_number: assertion '(unsigned int) number < g_list_length (manager->logical_monitors)' failed
+Oct 25 12:30:54 kenni gnome-shell[800]: meta_workspace_get_work_area_for_monitor: assertion 'logical_monitor != NULL' failed
+Oct 25 12:30:54 kenni gnome-shell[800]: JS ERROR: TypeError: rect is undefined#012MonitorConstraint<.vfunc_update_allocation@resource:///org/gnome/shell/ui/layout.js:146:9#012wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22#012LayoutManager<._init/<@resource:///org/gnome/shell/ui/layout.js:204:33
+Oct 25 12:30:54 kenni gnome-shell[800]: JS ERROR: TypeError: Main.layoutManager.primaryMonitor is undefined#012Panel<._getPreferredWidth@resource:///org/gnome/shell/ui/panel.js:843:9#012wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22#012LayoutManager<._init/<@resource:///org/gnome/shell/ui/layout.js:204:33
+Oct 25 12:30:54 kenni gnome-shell[800]: JS ERROR: TypeError: Main.layoutManager.primaryMonitor is undefined#012Panel<._getPreferredWidth@resource:///org/gnome/shell/ui/panel.js:843:9#012wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22#012LayoutManager<._init/<@resource:///org/gnome/shell/ui/layout.js:204:33
+Oct 25 12:30:54 kenni gnome-shell[800]: meta_monitor_manager_get_logical_monitor_from_number: assertion '(unsigned int) number < g_list_length (manager->logical_monitors)' failed
+Oct 25 12:30:54 kenni gnome-shell[800]: meta_workspace_get_work_area_for_monitor: assertion 'logical_monitor != NULL' failed
+Oct 25 12:30:54 kenni gnome-shell[800]: JS ERROR: TypeError: rect is undefined#012MonitorConstraint<.vfunc_update_allocation@resource:///org/gnome/shell/ui/layout.js:146:9#012wrapper@resource:///org/gnome/gjs/modules/_legacy.js:82:22#012LayoutManager<._init/<@resource:///org/gnome/shell/ui/layout.js:204:33
+Oct 25 12:30:54 kenni kernel: [ 4734.444118] traps: gnome-shell[800] general protection ip:7f91c08ea243 sp:7ffe92601418 error:0 in libgbm.so.1.0.0[7f91c08e7000+d000]
+Oct 25 12:31:11 kenni org.gnome.Shell.desktop[800]: (EE)
+Oct 25 12:31:11 kenni org.gnome.Shell.desktop[800]: Fatal server error:
+Oct 25 12:31:11 kenni org.gnome.Shell.desktop[800]: (EE) failed to read Wayland events: Broken pipe
+Oct 25 12:31:11 kenni org.gnome.Shell.desktop[800]: (EE)
+Oct 25 12:31:11 kenni gnome-session[792]: gnome-session-binary[792]: WARNING: Application 'org.gnome.Shell.desktop' killed by signal 11
+Oct 25 12:31:11 kenni gnome-session-binary[792]: Unrecoverable failure in required component org.gnome.Shell.desktop
+Oct 25 12:31:11 kenni gnome-session-binary[792]: WARNING: Application 'org.gnome.Shell.desktop' killed by signal 11
+Oct 25 12:31:11 kenni gsd-media-keys[891]: gsd-media-keys: Fatal IO error 11 (Resursen midlertidig utilgængelig) on X server :1024.
+Oct 25 12:31:11 kenni org.a11y.atspi.Registry[835]: XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":1024"
+Oct 25 12:31:11 kenni org.a11y.atspi.Registry[835]:       after 21 requests (21 known processed) with 0 events remaining.
+Oct 25 12:31:11 kenni gsd-color[884]: gsd-color: Fatal IO error 11 (Resursen midlertidig utilgængelig) on X server :1024.
+Oct 25 12:31:11 kenni gsd-wacom[875]: gsd-wacom: Fatal IO error 11 (Resursen midlertidig utilgængelig) on X server :1024.
+Oct 25 12:31:11 kenni gsd-keyboard[890]: gsd-keyboard: Fatal IO error 11 (Resursen midlertidig utilgængelig) on X server :1024.
+Oct 25 12:31:11 kenni gsd-xsettings[877]: gsd-xsettings: Fatal IO error 104 (Forbindelsen brudt i den anden ende) on X server :1024.
+Oct 25 12:31:11 kenni gsd-a11y-keyboa[878]: gsd-a11y-keyboard: Fatal IO error 11 (Resursen midlertidig utilgængelig) on X server :1024.
+Oct 25 12:31:11 kenni gsd-clipboard[883]: gsd-clipboard: Fatal IO error 11 (Resursen midlertidig utilgængelig) on X server :1024.
+Oct 25 12:31:11 kenni gsd-power[898]: gsd-power: Fatal IO error 11 (Resursen midlertidig utilgængelig) on X server :1024.
+Oct 25 12:31:11 kenni kernel: [ 4750.999021] [drm] Reducing the compressed framebuffer size. This may lead to less power savings than a non-reduced-size. Try to increase stolen memory size if available in BIOS.
+Oct 25 12:31:11 kenni gdm3: Child process -788 was already dead.
+Oct 25 12:31:11 kenni systemd[1]: Started Session c2 of user gdm.
+Oct 25 12:31:11 kenni dbus-daemon[790]: Activating service name='org.gnome.ScreenSaver'
+Oct 25 12:31:11 kenni org.gnome.ScreenSaver[790]: Unable to init server: Kunne ikke forbinde: Opkobling nægtet
+Oct 25 12:31:11 kenni gnome-screensav[11886]: Kan ikke åbne terminal: 
+Oct 25 12:31:11 kenni dbus-daemon[790]: Activated service 'org.gnome.ScreenSaver' failed: Process org.gnome.ScreenSaver exited with status 1
+Oct 25 12:31:11 kenni gnome-session[11880]: gnome-session-binary[11880]: CRITICAL: Unable to create a DBus proxy for GnomeScreensaver: Fejl ved kald til StartServiceByName for org.gnome.ScreenSaver: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.gnome.ScreenSaver exited with status 1
+Oct 25 12:31:11 kenni gnome-session-binary[11880]: CRITICAL: Unable to create a DBus proxy for GnomeScreensaver: Fejl ved kald til StartServiceByName for org.gnome.ScreenSaver: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.gnome.ScreenSaver exited with status 1
+Oct 25 12:31:11 kenni org.gnome.Shell.desktop[11888]: glamor: EGL version 1.4 (DRI2):
+Oct 25 12:31:11 kenni at-spi-bus-launcher[830]: Activating service name='org.a11y.atspi.Registry'
+Oct 25 12:31:11 kenni at-spi-bus-launcher[830]: Successfully activated service 'org.a11y.atspi.Registry'
+Oct 25 12:31:11 kenni org.a11y.atspi.Registry[835]: SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+Oct 25 12:31:12 kenni gnome-shell[11888]: JS WARNING: [resource:///org/gnome/shell/ui/main.js 315]: reference to undefined property "MetaStage"
+Oct 25 12:31:12 kenni gnome-shell[11888]: JS WARNING: [resource:///org/gnome/shell/ui/layout.js 217]: reference to undefined property "MetaWindowGroup"
+Oct 25 12:31:12 kenni gnome-shell[11888]: JS WARNING: [resource:///org/gnome/shell/ui/osdMonitorLabeler.js 59]: reference to undefined property "MetaDBusDisplayConfigSkeleton"
+Oct 25 12:31:12 kenni dbus[648]: [system] Activating via systemd: service name='org.freedesktop.locale1' unit='dbus-org.freedesktop.locale1.service'
+Oct 25 12:31:12 kenni systemd[1]: Starting Locale Service...
+Oct 25 12:31:12 kenni org.gnome.Shell.desktop[11888]: current session already has an ibus-daemon.
+Oct 25 12:31:12 kenni gnome-shell[11888]: JS WARNING: [resource:///org/gnome/shell/ui/slider.js 38]: reference to undefined property "CallyActor"
+Oct 25 12:31:12 kenni dbus[648]: [system] Activating via systemd: service name='org.freedesktop.GeoClue2' unit='geoclue.service'
+Oct 25 12:31:12 kenni systemd[1]: Starting Location Lookup Service...
+Oct 25 12:31:12 kenni dbus[648]: [system] Successfully activated service 'org.freedesktop.GeoClue2'
+Oct 25 12:31:12 kenni systemd[1]: Started Location Lookup Service.
+Oct 25 12:31:12 kenni dbus[648]: [system] Successfully activated service 'org.freedesktop.locale1'
+Oct 25 12:31:12 kenni systemd[1]: Started Locale Service.
+Oct 25 12:31:12 kenni gnome-shell[11888]: JS WARNING: [resource:///org/gnome/gjs/modules/tweener/tweener.js 540]: reference to undefined property "isSpecialProperty"
+Oct 25 12:31:12 kenni gnome-shell[11888]: Error looking up permission: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.impl.portal.PermissionStore was not provided by any .service files
+Oct 25 12:31:12 kenni gnome-session-binary[11880]: Entering running state
+Oct 25 12:31:12 kenni dbus[648]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service'
+Oct 25 12:31:12 kenni systemd[1]: Starting Hostname Service...
+Oct 25 12:31:12 kenni xbrlapi.desktop[12005]: openConnection: connect: Ingen sådan fil eller filkatalog
+Oct 25 12:31:12 kenni xbrlapi.desktop[12005]: cannot connect to braille devices daemon brltty at :0
+Oct 25 12:31:12 kenni gnome-shell[11888]: JS WARNING: [resource:///org/gnome/shell/ui/windowManager.js 1471]: reference to undefined property "MetaWindowX11"
+Oct 25 12:31:12 kenni dbus[648]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Oct 25 12:31:12 kenni systemd[1]: Started Hostname Service.
+Oct 25 12:31:13 kenni gsd-power[11946]: gsd_power_backlight_abs_to_percentage: assertion 'max > min' failed
+Oct 25 12:31:13 kenni org.gnome.Shell.desktop[11888]: Window manager warning: "XF86RFKill" is not a valid accelerator
+Oct 25 12:31:20 kenni systemd[1]: Created slice User Slice of kenni.
+Oct 25 12:31:20 kenni systemd[1]: Starting User Manager for UID 1000...
+Oct 25 12:31:20 kenni systemd[1]: Started Session 6 of user kenni.
+Oct 25 12:31:20 kenni systemd[12022]: Reached target Timers.
+Oct 25 12:31:20 kenni systemd[12022]: Reached target Paths.
+Oct 25 12:31:20 kenni systemd[12022]: Starting D-Bus User Message Bus Socket.
+Oct 25 12:31:20 kenni systemd[12022]: Listening on D-Bus User Message Bus Socket.
+Oct 25 12:31:20 kenni systemd[12022]: Reached target Sockets.
+Oct 25 12:31:20 kenni systemd[12022]: Reached target Basic System.
+Oct 25 12:31:20 kenni systemd[12022]: Reached target Default.
+Oct 25 12:31:20 kenni systemd[12022]: Startup finished in 17ms.
+Oct 25 12:31:20 kenni systemd[1]: Started User Manager for UID 1000.
+Oct 25 12:31:20 kenni systemd[12022]: Started D-Bus User Message Bus.
+Oct 25 12:31:20 kenni dbus-daemon[12037]: Activating via systemd: service name='org.gtk.vfs.Daemon' unit='gvfs-daemon.service'
+Oct 25 12:31:20 kenni systemd[12022]: Starting Virtual filesystem service...
+Oct 25 12:31:20 kenni dbus-daemon[12037]: Successfully activated service 'org.gtk.vfs.Daemon'
+Oct 25 12:31:20 kenni systemd[12022]: Started Virtual filesystem service.
+Oct 25 12:31:20 kenni dbus-daemon[12037]: Activating service name='org.gnome.ScreenSaver'
+Oct 25 12:31:20 kenni org.gnome.ScreenSaver[12037]: Unable to init server: Kunne ikke forbinde: Opkobling nægtet
+Oct 25 12:31:20 kenni gnome-screensav[12109]: Kan ikke åbne terminal: 
+Oct 25 12:31:20 kenni dbus-daemon[12037]: Activated service 'org.gnome.ScreenSaver' failed: Process org.gnome.ScreenSaver exited with status 1
+Oct 25 12:31:20 kenni gnome-session[12039]: gnome-session-binary[12039]: CRITICAL: Unable to create a DBus proxy for GnomeScreensaver: Fejl ved kald til StartServiceByName for org.gnome.ScreenSaver: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.gnome.ScreenSaver exited with status 1
+Oct 25 12:31:20 kenni gnome-session-binary[12039]: CRITICAL: Unable to create a DBus proxy for GnomeScreensaver: Fejl ved kald til StartServiceByName for org.gnome.ScreenSaver: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.gnome.ScreenSaver exited with status 1
+Oct 25 12:31:20 kenni gnome-keyring-ssh.desktop[12113]: SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+Oct 25 12:31:20 kenni gnome-keyring-pkcs11.desktop[12115]: SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+Oct 25 12:31:20 kenni org.gnome.Shell.desktop[12120]: glamor: EGL version 1.4 (DRI2):
+Oct 25 12:31:21 kenni dbus-daemon[12037]: Activating via systemd: service name='org.a11y.Bus' unit='at-spi-dbus-bus.service'
+Oct 25 12:31:21 kenni systemd[12022]: Starting Accessibility services bus...
+Oct 25 12:31:21 kenni dbus-daemon[12037]: Successfully activated service 'org.a11y.Bus'
+Oct 25 12:31:21 kenni systemd[12022]: Started Accessibility services bus.
+Oct 25 12:31:21 kenni at-spi-bus-launcher[12133]: Activating service name='org.a11y.atspi.Registry'
+Oct 25 12:31:21 kenni at-spi-bus-launcher[12133]: Successfully activated service 'org.a11y.atspi.Registry'
+Oct 25 12:31:21 kenni org.a11y.atspi.Registry[12138]: SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+Oct 25 12:31:21 kenni rtkit-daemon[842]: Successfully made thread 12146 of process 12146 (n/a) owned by '1000' high priority at nice level -11.
+Oct 25 12:31:21 kenni rtkit-daemon[842]: Supervising 1 threads of 1 processes of 1 users.
+Oct 25 12:31:21 kenni rtkit-daemon[842]: Supervising 1 threads of 1 processes of 1 users.
+Oct 25 12:31:21 kenni rtkit-daemon[842]: Successfully made thread 12147 of process 12146 (n/a) owned by '1000' RT at priority 5.
+Oct 25 12:31:21 kenni rtkit-daemon[842]: Supervising 2 threads of 1 processes of 1 users.
+Oct 25 12:31:21 kenni rtkit-daemon[842]: Supervising 2 threads of 1 processes of 1 users.
+Oct 25 12:31:21 kenni rtkit-daemon[842]: Successfully made thread 12148 of process 12146 (n/a) owned by '1000' RT at priority 5.
+Oct 25 12:31:21 kenni rtkit-daemon[842]: Supervising 3 threads of 1 processes of 1 users.
+Oct 25 12:31:21 kenni dbus[648]: [system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service'
+Oct 25 12:31:21 kenni gnome-shell[12120]: JS WARNING: [resource:///org/gnome/shell/ui/main.js 315]: reference to undefined property "MetaStage"
+Oct 25 12:31:21 kenni gnome-shell[12120]: JS WARNING: [resource:///org/gnome/shell/ui/layout.js 217]: reference to undefined property "MetaWindowGroup"
+Oct 25 12:31:21 kenni gnome-shell[12120]: JS WARNING: [resource:///org/gnome/shell/ui/osdMonitorLabeler.js 59]: reference to undefined property "MetaDBusDisplayConfigSkeleton"
+Oct 25 12:31:21 kenni dbus-daemon[12037]: Activating service name='org.gnome.Shell.CalendarServer'
+Oct 25 12:31:21 kenni dbus-daemon[12037]: Activating via systemd: service name='org.gnome.evolution.dataserver.Sources5' unit='evolution-source-registry.service'
+Oct 25 12:31:21 kenni systemd[12022]: Starting Evolution source registry...
+Oct 25 12:31:21 kenni dbus-daemon[12037]: Activating service name='org.gnome.OnlineAccounts'
+Oct 25 12:31:21 kenni dbus-daemon[12037]: Successfully activated service 'org.gnome.evolution.dataserver.Sources5'
+Oct 25 12:31:21 kenni systemd[12022]: Started Evolution source registry.
+Oct 25 12:31:21 kenni dbus-daemon[12037]: Successfully activated service 'org.gnome.Shell.CalendarServer'
+Oct 25 12:31:21 kenni goa-daemon[12169]: goa-daemon version 3.26.1 starting
+Oct 25 12:31:21 kenni dbus-daemon[12037]: Activating service name='org.gnome.Identity'
+Oct 25 12:31:21 kenni dbus-daemon[12037]: Successfully activated service 'org.gnome.OnlineAccounts'
+Oct 25 12:31:21 kenni dbus-daemon[12037]: Successfully activated service 'org.gnome.Identity'
+Oct 25 12:31:21 kenni gnome-shell[12120]: JS WARNING: [resource:///org/gnome/shell/ui/slider.js 38]: reference to undefined property "CallyActor"
+Oct 25 12:31:21 kenni dbus[648]: [system] Activating via systemd: service name='org.freedesktop.GeoClue2' unit='geoclue.service'
+Oct 25 12:31:21 kenni systemd[1]: Starting Location Lookup Service...
+Oct 25 12:31:21 kenni dbus[648]: [system] Successfully activated service 'org.freedesktop.GeoClue2'
+Oct 25 12:31:21 kenni systemd[1]: Started Location Lookup Service.
+Oct 25 12:31:21 kenni gnome-shell[12120]: Telepathy is not available, chat integration will be disabled.
+Oct 25 12:31:21 kenni dbus-daemon[12037]: Activating via systemd: service name='org.gtk.vfs.UDisks2VolumeMonitor' unit='gvfs-udisks2-volume-monitor.service'
+Oct 25 12:31:21 kenni systemd[12022]: Starting Virtual filesystem service - disk device monitor...
+Oct 25 12:31:21 kenni dbus-daemon[12037]: Successfully activated service 'org.gtk.vfs.UDisks2VolumeMonitor'
+Oct 25 12:31:21 kenni systemd[12022]: Started Virtual filesystem service - disk device monitor.
+Oct 25 12:31:21 kenni dbus-daemon[12037]: Activating via systemd: service name='org.gtk.vfs.MTPVolumeMonitor' unit='gvfs-mtp-volume-monitor.service'
+Oct 25 12:31:21 kenni systemd[12022]: Starting Virtual filesystem service - Media Transfer Protocol monitor...
+Oct 25 12:31:21 kenni dbus-daemon[12037]: Successfully activated service 'org.gtk.vfs.MTPVolumeMonitor'
+Oct 25 12:31:21 kenni systemd[12022]: Started Virtual filesystem service - Media Transfer Protocol monitor.
+Oct 25 12:31:21 kenni dbus-daemon[12037]: Activating via systemd: service name='org.gtk.vfs.GPhoto2VolumeMonitor' unit='gvfs-gphoto2-volume-monitor.service'
+Oct 25 12:31:21 kenni systemd[12022]: Starting Virtual filesystem service - digital camera monitor...
+Oct 25 12:31:21 kenni dbus-daemon[12037]: Successfully activated service 'org.gtk.vfs.GPhoto2VolumeMonitor'
+Oct 25 12:31:21 kenni systemd[12022]: Started Virtual filesystem service - digital camera monitor.
+Oct 25 12:31:21 kenni dbus-daemon[12037]: Activating via systemd: service name='org.gtk.vfs.AfcVolumeMonitor' unit='gvfs-afc-volume-monitor.service'
+Oct 25 12:31:21 kenni systemd[12022]: Starting Virtual filesystem service - Apple File Conduit monitor...
+Oct 25 12:31:21 kenni gvfs-afc-volume-monitor[12218]: Volume monitor alive
+Oct 25 12:31:21 kenni dbus-daemon[12037]: Successfully activated service 'org.gtk.vfs.AfcVolumeMonitor'
+Oct 25 12:31:21 kenni systemd[12022]: Started Virtual filesystem service - Apple File Conduit monitor.
+Oct 25 12:31:21 kenni dbus-daemon[12037]: Activating via systemd: service name='org.gtk.vfs.GoaVolumeMonitor' unit='gvfs-goa-volume-monitor.service'
+Oct 25 12:31:21 kenni systemd[12022]: Starting Virtual filesystem service - GNOME Online Accounts monitor...
+Oct 25 12:31:21 kenni dbus-daemon[12037]: Successfully activated service 'org.gtk.vfs.GoaVolumeMonitor'
+Oct 25 12:31:21 kenni systemd[12022]: Started Virtual filesystem service - GNOME Online Accounts monitor.
+Oct 25 12:31:21 kenni gnome-shell[12120]: JS WARNING: [resource:///org/gnome/gjs/modules/tweener/tweener.js 540]: reference to undefined property "isSpecialProperty"
+Oct 25 12:31:22 kenni gnome-shell[12120]: Some code accessed the property 'Keys' on the module 'settings'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.
+Oct 25 12:31:22 kenni gnome-shell[12120]: Some code accessed the property 'KEY_ROWS' on the module 'prefs'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.
+Oct 25 12:31:22 kenni gnome-shell[12120]: Some code accessed the property 'KEY_COLS' on the module 'prefs'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.
+Oct 25 12:31:22 kenni gnome-shell[12120]: Some code accessed the property 'KEY_WRAPAROUND' on the module 'prefs'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.
+Oct 25 12:31:22 kenni gnome-shell[12120]: Some code accessed the property 'KEY_WRAP_TO_SAME' on the module 'prefs'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.
+Oct 25 12:31:22 kenni gnome-shell[12120]: Some code accessed the property 'KEY_MAX_HFRACTION' on the module 'prefs'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.
+Oct 25 12:31:22 kenni gnome-shell[12120]: Some code accessed the property 'KEY_MAX_HFRACTION_COLLAPSE' on the module 'prefs'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.
+Oct 25 12:31:22 kenni gnome-shell[12120]: Some code accessed the property 'KEY_SHOW_WORKSPACE_LABELS' on the module 'prefs'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.
+Oct 25 12:31:22 kenni gnome-shell[12120]: Some code accessed the property 'MAX_THUMBNAIL_SCALE' on the module 'workspaceThumbnail'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.
+Oct 25 12:31:22 kenni gnome-shell[12120]: Some code accessed the property 'ThumbnailState' on the module 'workspaceThumbnail'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.
+Oct 25 12:31:22 kenni gsd-rfkill[12236]: g_object_notify: object class 'CcRfkillGlib' has no property named 'kernel-noinput'
+Oct 25 12:31:22 kenni kernel: [ 4761.702621] rfkill: input handler disabled
+Oct 25 12:31:22 kenni gsd-sharing[12251]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit rygel.service not loaded.
+Oct 25 12:31:22 kenni gnome-shell[12120]: Some code accessed the property 'DBusMenu' on the module 'interfaces'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.
+Oct 25 12:31:22 kenni gsd-sharing[12251]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit gnome-remote-desktop.service not loaded.
+Oct 25 12:31:22 kenni gnome-shell[12120]: Some code accessed the property 'WORKAROUND_RELOAD_TYPE_REGISTER' on the module 'util'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.
+Oct 25 12:31:22 kenni gnome-shell[12120]: Some code accessed the property 'StatusNotifierWatcher' on the module 'statusNotifierWatcher'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.
+Oct 25 12:31:22 kenni gnome-shell[12120]: Some code accessed the property 'StatusNotifierWatcher' on the module 'interfaces'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.
+Oct 25 12:31:22 kenni gnome-shell[12120]: JS WARNING: [/usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/appIcons.js 1361]: unreachable code after return statement
+Oct 25 12:31:22 kenni gnome-shell[12120]: JS WARNING: [/usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/utils.js 34]: reference to undefined property Symbol.toPrimitive
+Oct 25 12:31:22 kenni gnome-shell[12120]: WARNING: addSignalMethods is replacing existing [0x55c9bccc9850 Gjs_ShowAppsIcon.dash-item-container] connect method
+Oct 25 12:31:22 kenni gnome-shell[12120]: WARNING: addSignalMethods is replacing existing [0x55c9bccc9850 Gjs_ShowAppsIcon.dash-item-container] disconnect method
+Oct 25 12:31:22 kenni gnome-shell[12120]: WARNING: addSignalMethods is replacing existing [0x55c9bccc9850 Gjs_ShowAppsIcon.dash-item-container] emit method
+Oct 25 12:31:22 kenni dbus-daemon[12037]: Activating via systemd: service name='org.gnome.evolution.dataserver.Calendar7' unit='evolution-calendar-factory.service'
+Oct 25 12:31:22 kenni systemd[12022]: Starting Evolution calendar service...
+Oct 25 12:31:22 kenni dbus-daemon[12037]: Successfully activated service 'org.gnome.evolution.dataserver.Calendar7'
+Oct 25 12:31:22 kenni systemd[12022]: Started Evolution calendar service.
+Oct 25 12:31:22 kenni dbus-daemon[12037]: Activating service name='ca.desrt.dconf'
+Oct 25 12:31:22 kenni dbus-daemon[12037]: Activating via systemd: service name='org.gnome.evolution.dataserver.AddressBook9' unit='evolution-addressbook-factory.service'
+Oct 25 12:31:22 kenni systemd[12022]: Starting Evolution address book service...
+Oct 25 12:31:22 kenni dbus-daemon[12037]: Successfully activated service 'ca.desrt.dconf'
+Oct 25 12:31:22 kenni gnome-shell[12120]: Error looking up permission: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.impl.portal.PermissionStore was not provided by any .service files
+Oct 25 12:31:22 kenni dbus-daemon[12037]: Successfully activated service 'org.gnome.evolution.dataserver.AddressBook9'
+Oct 25 12:31:22 kenni systemd[12022]: Started Evolution address book service.
+Oct 25 12:31:22 kenni gnome-session-binary[12039]: Entering running state
+Oct 25 12:31:22 kenni kerneloops-applet.desktop[12385]: /usr/share/themes/Ambiance/gtk-2.0/apps/mate-panel.rc:30: error: invalid string constant "murrine-scrollbar", expected valid string constant
+Oct 25 12:31:22 kenni org.gnome.Shell.desktop[12120]: Window manager warning: "XF86RFKill" is not a valid accelerator
+Oct 25 12:31:22 kenni gsd-power[12230]: gsd_power_backlight_abs_to_percentage: assertion 'max > min' failed
+Oct 25 12:31:22 kenni nautilus-autostart.desktop[12387]: sys:1: PyGIWarning: Nautilus was imported without specifying a version first. Use gi.require_version('Nautilus', '3.0') before import to ensure that the right version gets loaded.
+Oct 25 12:31:22 kenni dbus-daemon[12037]: Activating service name='org.freedesktop.FileManager1'
+Oct 25 12:31:22 kenni org.freedesktop.FileManager1[12037]: sys:1: PyGIWarning: Nautilus was imported without specifying a version first. Use gi.require_version('Nautilus', '3.0') before import to ensure that the right version gets loaded.
+Oct 25 12:31:22 kenni dbus-daemon[12037]: Successfully activated service 'org.freedesktop.FileManager1'
+Oct 25 12:31:23 kenni gnome-shell[12120]: Some code accessed the property 'Logger' on the module 'util'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.
+Oct 25 12:31:23 kenni gnome-shell[12120]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem org.kde.StatusNotifierItem-12389-1/StatusNotifierItem
+Oct 25 12:31:23 kenni gnome-shell[12120]: Some code accessed the property 'AppIndicator' on the module 'appIndicator'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.
+Oct 25 12:31:23 kenni gnome-shell[12120]: Some code accessed the property 'StatusNotifierItem' on the module 'interfaces'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.
+Oct 25 12:31:23 kenni gnome-shell[12120]: Some code accessed the property 'connectSmart' on the module 'util'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.
+Oct 25 12:31:23 kenni gnome-shell[12120]: Some code accessed the property 'IndicatorStatusIcon' on the module 'indicatorStatusIcon'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.
+Oct 25 12:31:23 kenni gnome-shell[12120]: Some code accessed the property 'IconActor' on the module 'appIndicator'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.
+Oct 25 12:31:23 kenni gnome-shell[12120]: Some code accessed the property 'IconCache' on the module 'iconCache'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.
+Oct 25 12:31:23 kenni gnome-shell[12120]: Some code accessed the property 'SNIStatus' on the module 'appIndicator'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.
+Oct 25 12:31:23 kenni gnome-shell[12120]: Some code accessed the property 'Client' on the module 'dbusMenu'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.
+Oct 25 12:31:23 kenni gnome-shell[12120]: GNOME Shell started at Wed Oct 25 2017 12:31:21 GMT+0200 (CEST)
+Oct 25 12:31:23 kenni gnome-shell[12120]: Some code accessed the property 'refreshPropertyOnProxy' on the module 'util'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.
+Oct 25 12:31:23 kenni gnome-software[12384]: plugin appstream took 0,8 seconds to do setup
+Oct 25 12:31:23 kenni gnome-software[12384]: enabled plugins: packagekit-upgrade, ubuntuone, os-release, packagekit-proxy, packagekit-offline, desktop-categories, fwupd, systemd-updates, packagekit-refresh, packagekit-local, packagekit, shell-extensions, appstream, hardcoded-featured, steam, modalias, rewrite-resource, generic-updates, ubuntu-reviews, desktop-menu-path, packagekit-refine, hardcoded-blacklist, hardcoded-popular, provenance, snap, packagekit-history, provenance-license, icons, key-colors, key-colors-metadata
+Oct 25 12:31:23 kenni gnome-software[12384]: disabled plugins: repos, dummy, dpkg, epiphany, odrs
+Oct 25 12:31:23 kenni gnome-software[12384]: running get-updates-historical with timeout=60 on plugin=fwupd took 1ms
+Oct 25 12:31:24 kenni gnome-shell[12120]: Some code accessed the property 'myWorkspaceSwitcherPopup' on the module 'myWorkspaceSwitcherPopup'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.
+Oct 25 12:31:24 kenni nautilus-deskto[12387]: Called "net usershare info" but it failed: Fejl under kørsel af underprocessen “net” (No such file or directory)
+Oct 25 12:31:24 kenni dbus-daemon[12037]: Activating via systemd: service name='org.gtk.vfs.Metadata' unit='gvfs-metadata.service'
+Oct 25 12:31:24 kenni systemd[12022]: Starting Virtual filesystem metadata service...
+Oct 25 12:31:24 kenni dbus-daemon[12037]: Successfully activated service 'org.gtk.vfs.Metadata'
+Oct 25 12:31:24 kenni systemd[12022]: Started Virtual filesystem metadata service.
+Oct 25 12:31:26 kenni org.gnome.SettingsDaemon.MediaKeys.desktop[12272]: Warning: DESKTOP_STARTUP_ID not set and no fallback available.
+Oct 25 12:31:26 kenni dbus-daemon[12037]: Activating via systemd: service name='org.gnome.Terminal' unit='gnome-terminal-server.service'
+Oct 25 12:31:26 kenni systemd[12022]: Starting GNOME Terminal Server...
+Oct 25 12:31:26 kenni dbus-daemon[12037]: Successfully activated service 'org.gnome.Terminal'
+Oct 25 12:31:26 kenni systemd[12022]: Started GNOME Terminal Server.
+Oct 25 12:31:26 kenni gnome-shell[12120]: setup_framebuffers: assertion 'width > 0' failed
+Oct 25 12:31:28 kenni gnome-terminal-[12487]: Unable to load blank_cursor from the cursor theme
+Oct 25 12:31:28 kenni gnome-terminal-[12487]: Unable to load blank_cursor from the cursor theme
+Oct 25 12:31:32 kenni org.freedesktop.FileManager1[12037]: Initializing Nextcloud-client-nautilus extension
+Oct 25 12:31:32 kenni org.freedesktop.FileManager1[12037]: Socket File: /run/user/1000/Nextcloud/socket
+Oct 25 12:31:32 kenni org.freedesktop.FileManager1[12037]: Setting connected to True.
+Oct 25 12:31:32 kenni org.freedesktop.FileManager1[12037]: Socket watch id: 13
+Oct 25 12:31:32 kenni org.freedesktop.FileManager1[12037]: Server response: REGISTER_PATH:/home/kenni/Nextcloud
+Oct 25 12:31:32 kenni org.freedesktop.FileManager1[12037]: Server response: STATUS:OK:/home/kenni/Nextcloud
+Oct 25 12:31:32 kenni org.freedesktop.FileManager1[12037]: Server response: STATUS:OK:/home/kenni/Nextcloud
+Oct 25 12:31:32 kenni org.freedesktop.FileManager1[12037]: Server response: UPDATE_VIEW:/home/kenni/Nextcloud
+Oct 25 12:31:32 kenni org.freedesktop.FileManager1[12037]: Server response: STATUS:OK:/home/kenni/Nextcloud
+Oct 25 12:31:32 kenni org.freedesktop.FileManager1[12037]: message repeated 2 times: [ Server response: STATUS:OK:/home/kenni/Nextcloud]
+Oct 25 12:31:32 kenni org.freedesktop.FileManager1[12037]: Server response: UPDATE_VIEW:/home/kenni/Nextcloud
+Oct 25 12:31:32 kenni org.freedesktop.FileManager1[12037]: Server response: STATUS:OK:/home/kenni/Nextcloud
+Oct 25 12:31:41 kenni gnome-terminal-[12487]: Allocating size to GtkBox 0x5566cee7a750 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
+Oct 25 12:31:41 kenni gnome-terminal-[12487]: message repeated 17 times: [ Allocating size to GtkBox 0x5566cee7a750 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?]
+Oct 25 12:31:46 kenni pulseaudio[12146]: [pulseaudio] bluez5-util.c: GetManagedObjects() failed: org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+Oct 25 12:31:49 kenni dbus-daemon[12037]: Activating service name='org.gnome.GConf'
+Oct 25 12:31:49 kenni dbus-daemon[12037]: Successfully activated service 'org.gnome.GConf'
+Oct 25 12:31:49 kenni dbus-daemon[12037]: Activating service name='org.gnome.ChromeGnomeShell'
+Oct 25 12:31:49 kenni dbus-daemon[12037]: Successfully activated service 'org.gnome.ChromeGnomeShell'
+Oct 25 12:32:07 kenni gnome-terminal-[12487]: Unable to load blank_cursor from the cursor theme
+Oct 25 12:32:07 kenni gnome-terminal-[12487]: Unable to load blank_cursor from the cursor theme
+Oct 25 12:32:24 kenni gnome-software[12384]: running get-distro-updates with refine-flags=require-setup-action with timeout=60 on plugin=appstream took 4ms
+Oct 25 12:32:24 kenni gnome-shell[12120]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.77/org/ayatana/NotificationItem/software_update_available
+Oct 25 12:33:43 kenni gnome-terminal-[12487]: Unable to load blank_cursor from the cursor theme
